@@ -1,0 +1,2042 @@
+[07-06-2025 18:22:45] [I] Server loaded. Type 'help' for help.
+[07-06-2025 18:22:45] [I] [MindustryX] Hooks.init
+[07-06-2025 18:22:49] [I] Randomized next map to be Ancient Caldera.
+[07-06-2025 18:22:49] [I] Loading map...
+[07-06-2025 18:22:49] [I] Map loaded.
+[07-06-2025 18:22:50] [I] Opened a server on port 6567.
+[07-06-2025 18:22:57] [I] Shutting down server.
+[07-18-2025 20:29:58] [I] 4 mods loaded.
+[07-18-2025 20:31:40] [I] ===========================
+[07-18-2025 20:31:40] [I]      ScriptAgent @version@
+[07-18-2025 20:31:40] [I]            By WayZer    
+[07-18-2025 20:31:40] [I] 插件官网: https://git.io/SA4Mindustry
+[07-18-2025 20:31:40] [I] QQ交流群: 1033116078
+[07-18-2025 20:31:40] [I] 共找到95脚本,加载成功65,启用成功60,出错27
+[07-18-2025 20:31:40] [I] ===========================
+[07-18-2025 20:31:40] [I] Server loaded. Type 'help' for help.
+[07-18-2025 20:31:40] [I] [MindustryX] Hooks.init
+[07-18-2025 20:31:47] [I] Opened a server on port 6567.
+[07-18-2025 20:32:35] [I] [31m无效指令"relaod",请使用 * sa help 查询
+[07-18-2025 20:32:41] [I] [32m重载成功: Loaded
+[07-18-2025 20:32:49] [I] [32m启用成功
+[07-18-2025 20:35:18] [I] [31m找不到模块或者脚本
+[07-18-2025 20:35:25] [I] [31m无效指令"scan",请使用 * help 查询
+[07-18-2025 20:35:27] [I] [31m无效指令"hlep",请使用 * help 查询
+[07-18-2025 20:35:31] [I] [31m无效指令"*",请使用 * help 查询
+[07-18-2025 20:35:35] [I] [31m无效指令"*help",请使用 * help 查询
+[07-18-2025 20:35:39] [I] [31m无效指令"*",请使用 * help 查询
+[07-18-2025 20:35:40] [I] [32m==== [37mHelp: * [32m ====
+[93m* ScriptAgent[91m(sa) [37m  [96mScriptAgent 控制指令[36m
+[93m* admin[91m [37m<add/remove> <username/ID...>  [96mMake an online user admin[36m
+[93m* admins[91m [37m  [96mList all admins.[36m
+[93m* ban[91m [37m<type-id/name/ip> <username/IP/ID...>  [96mBan a person.[36m
+[93m* banX[91m [37m<3位id> <时间|分钟> <原因>  [96m管理指令: 禁封[36m
+[93m* bans[91m [37m  [96mList all banned IPs and IDs.[36m
+[93m* config[91m [37m[name] [value...]  [96mConfigure server settings.[36m
+[93m* dosBanClear[91m [37m  [96m清理dosBan[36m
+[93m* exit[91m [37m  [96mExit the server application.[36m
+[93m* fillitems[91m [37m[team]  [96mFill the core with items.[36m
+[32m==== [37m1/6[32m ====
+[07-18-2025 20:35:47] [I] [32m==== [37mHelp: * [32m ====
+[93m* forceUpdate[91m [37m<url>  [96m强制更新服务器版本[36m
+[93m* gameover[91m [37m[winner]  [96m管理指令: 结束游戏[36m
+[93m* gc[91m [37m  [96mTrigger a garbage collection. Testing only.[36m
+[93m* help[91m(帮助) [37m[-v] [page=1]  [96m帮助指令[36m
+[93m* history[91m(历史) [37m[core(查询核心)]  [96m开关查询模式[36m
+[93m* host[91m [37m[mapId]  [96m管理指令: 换图[36m
+[93m* info[91m [37m<IP/UUID/name...>  [96mFind player info(s). Can optionally check for all names or IPs a player has had.[36m
+[93m* js[91m [37m  [96mUNSAFE: 在服务器运行js[36m
+[93m* kick[91m [37m<username...>  [96mKick a person by name.[36m
+[93m* load[91m [37m<slot>  [96m管理指令: 加载存档[36m
+[32m==== [37m2/6[32m ====
+[07-18-2025 20:35:51] [I] [32m==== [37mHelp: * [32m ====
+[93m* loadautosave[91m [37m  [96mLoads the last auto-save.[36m
+[93m* mapScriptLoad[91m [37m<script>  [96m测试: 加载指定地图脚本[36m
+[93m* maps[91m(地图) [37m[page/filter] [page]  [96m列出服务器地图[36m
+[93m* mod[91m [37m<name...>  [96mDisplay information about a loaded plugin.[36m
+[93m* mods[91m [37m  [96mDisplay all loaded mods.[36m
+[93m* nextmap[91m [37m<mapname...>  [96mSet the next map to be played after a game-over. Overrides shuffling.[36m
+[93m* pardon[91m [37m<ID>  [96mPardons a votekicked player by ID and allows them to join again.[36m
+[93m* pause[91m [37m<on/off>  [96mPause or unpause the game.[36m
+[93m* playerlimit[91m [37m[off/somenumber]  [96mSet the server player limit.[36m
+[93m* players[91m [37m  [96mList all players currently in game.[36m
+[32m==== [37m3/6[32m ====
+[07-18-2025 20:35:53] [I] [32m==== [37mHelp: * [32m ====
+[93m* reloadmaps[91m [37m  [96mReload all maps from disk.[36m
+[93m* restart[91m [37m[--now] <msg>  [96m计划重启[36m
+[93m* rules[91m [37m[remove/add] [name] [value...]  [96mList, remove or add global rules. These will apply regardless of map.[36m
+[93m* runwave[91m [37m  [96mTrigger the next wave.[36m
+[93m* save[91m [37m<slot>  [96mSave game state to a slot.[36m
+[93m* saveSnap[91m [37m  [96m保存当前服务器地图截图[36m
+[93m* saves[91m [37m  [96mList all saves in the save directory.[36m
+[93m* say[91m [37m<message...>  [96mSend a message to all players.[36m
+[93m* search[91m [37m<name...>  [96mSearch players who have used part of a name.[36m
+[93m* showColor[91m [37m  [96m显示所有颜色[36m
+[32m==== [37m4/6[32m ====
+[07-18-2025 20:35:55] [I] [32m==== [37mHelp: * [32m ====
+[93m* ScriptAgent[91m(sa) [37m  [96mScriptAgent 控制指令[36m
+[93m* admin[91m [37m<add/remove> <username/ID...>  [96mMake an online user admin[36m
+[93m* admins[91m [37m  [96mList all admins.[36m
+[93m* ban[91m [37m<type-id/name/ip> <username/IP/ID...>  [96mBan a person.[36m
+[93m* banX[91m [37m<3位id> <时间|分钟> <原因>  [96m管理指令: 禁封[36m
+[93m* bans[91m [37m  [96mList all banned IPs and IDs.[36m
+[93m* config[91m [37m[name] [value...]  [96mConfigure server settings.[36m
+[93m* dosBanClear[91m [37m  [96m清理dosBan[36m
+[93m* exit[91m [37m  [96mExit the server application.[36m
+[93m* fillitems[91m [37m[team]  [96mFill the core with items.[36m
+[32m==== [37m1/6[32m ====
+[07-18-2025 20:35:58] [I] [32m==== [37mHelp: * sa [32m ====
+[93m* sa config[91m [37m[help/arg...]  [96m查看或修改配置[36m
+[93m* sa disable[91m(关闭) [37m<module[/script]> [--async]  [96m关闭一个脚本或者模块[36m
+[93m* sa enable[91m(启用) [37m<module[/script]> [--async]  [96m(重新)启用一个脚本或者模块[36m
+[93m* sa genMetadata[91m [37m  [96m生成供开发使用的元数据[36m
+[93m* sa help[91m(帮助) [37m[-v] [page=1]  [96m帮助指令[36m
+[93m* sa hotReload[91m [37m  [96m开关脚本自动热重载[36m
+[93m* sa lang[91m [37m  [96m多语言功能[36m
+[93m* sa list[91m(ls, 列出) [37m[module/fail]  [96m列出所有模块或模块内所有脚本[36m
+[93m* sa load[91m(reload, 加载, 重载) [37m<module[/script]> [--noCache] [--noEnable] [--async]  [96m(重新)加载一个脚本或者模块[36m
+[93m* sa mirai[91m [37m[args...]  [96m重定向输入到mirai[36m
+[32m==== [37m1/2[32m ====
+[07-18-2025 20:36:04] [I] [32m==== [37mHelp: * sa [32m ====
+[93m* sa packModule[91m [37m<module>  [96m打包模块[36m
+[93m* sa permission[91m(pm) [37m<group> <add/list/remove/delGroup> [permission]  [96m权限系统配置[36m
+[93m* sa scan[91m(扫描) [37m  [96m重新扫描脚本[36m
+[93m* sa unload[91m(卸载) [37m<module[/script]> [--async]  [96m卸载一个脚本或者模块[36m
+[93m* sa vars[91m [37m[-v] [page]  [96m列出注册的所有模板变量[36m
+[32m==== [37m2/2[32m ====
+[07-18-2025 20:36:07] [I] [32m扫描完成,新发现1脚本
+[07-18-2025 20:36:11] [I] [32m重载成功: Enabled
+[07-18-2025 20:37:27] [I] [32m扫描完成,新发现1脚本
+[07-18-2025 20:37:37] [I] [32m重载成功: Enabled
+[07-18-2025 20:38:21] [I] [32m扫描完成,新发现1脚本
+[07-18-2025 20:38:25] [I] [32m重载成功: Enabled
+[07-18-2025 20:39:12] [I] [32m重载成功: Enabled
+[07-18-2025 20:39:25] [I] [32m重载成功: Enabled
+[07-18-2025 20:39:37] [I] [32m重载成功: Enabled
+[07-18-2025 20:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-18-2025 20:41:59] [I] [32m重载成功: Enabled
+[07-18-2025 20:42:16] [I] [31m找不到模块或者脚本
+[07-18-2025 20:42:18] [I] [32m扫描完成,新发现1脚本
+[07-18-2025 20:42:19] [I] [31m找不到模块或者脚本
+[07-18-2025 20:42:23] [I] [32m重载成功: Enabled
+[07-18-2025 20:46:06] [I] [32m重载成功: Enabled
+[07-18-2025 20:46:37] [I] [32m重载成功: Enabled
+[07-18-2025 20:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-18-2025 21:00:34] [I] 4 mods loaded.
+[07-18-2025 21:00:39] [I] ===========================
+[07-18-2025 21:00:39] [I]      ScriptAgent @version@
+[07-18-2025 21:00:39] [I]            By WayZer    
+[07-18-2025 21:00:39] [I] 插件官网: https://git.io/SA4Mindustry
+[07-18-2025 21:00:39] [I] QQ交流群: 1033116078
+[07-18-2025 21:00:39] [I] 共找到97脚本,加载成功65,启用成功60,出错27
+[07-18-2025 21:00:39] [I] ===========================
+[07-18-2025 21:00:39] [I] Server loaded. Type 'help' for help.
+[07-18-2025 21:00:39] [I] [MindustryX] Hooks.init
+[07-18-2025 21:00:48] [I] Opened a server on port 6567.
+[07-18-2025 21:01:19] [I] Shutting down server.
+[07-18-2025 21:01:41] [I] 4 mods loaded.
+[07-18-2025 21:01:49] [I] ===========================
+[07-18-2025 21:01:49] [I]      ScriptAgent @version@
+[07-18-2025 21:01:49] [I]            By WayZer    
+[07-18-2025 21:01:49] [I] 插件官网: https://git.io/SA4Mindustry
+[07-18-2025 21:01:49] [I] QQ交流群: 1033116078
+[07-18-2025 21:01:49] [I] 共找到97脚本,加载成功67,启用成功63,出错1
+[07-18-2025 21:01:49] [I] ===========================
+[07-18-2025 21:01:49] [I] Server loaded. Type 'help' for help.
+[07-18-2025 21:01:49] [I] [MindustryX] Hooks.init
+[07-18-2025 21:01:58] [I] Opened a server on port 6567.
+[07-18-2025 21:03:04] [I] [32m重载成功: Enabled
+[07-18-2025 21:03:17] [I] [32m重载成功: Enabled
+[07-18-2025 21:03:31] [I] [32m重载成功: Enabled
+[07-18-2025 21:09:45] [I] [32m重载成功: Enabled
+[07-18-2025 21:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-18-2025 21:13:01] [I] [32m重载成功: Enabled
+[07-18-2025 21:19:19] [I] [32m重载成功: Enabled
+[07-18-2025 21:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-18-2025 21:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-18-2025 21:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-18-2025 21:46:30] [I] [32m扫描完成,新发现2脚本
+[07-18-2025 21:46:43] [I] [32m重载成功: Enabled
+[07-18-2025 21:46:55] [I] [33m==== [93mplugins脚本[33m ====
+[0m[ToLoad] plugins/user/bind              加载失败: Unresolved reference: coreLibrary (bind.kts:3:8)
+[07-18-2025 21:47:03] [I] [32m重载成功: Enabled
+[07-18-2025 21:47:05] [I] [33m==== [93mplugins脚本[33m ====
+[0m[ToLoad] plugins/user/bind              加载失败: Unresolved reference: coreMindustry (bind.kts:3:8)
+[07-18-2025 21:47:24] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: coreMindustry (bind.kts:3:8)
+[07-18-2025 21:47:40] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: wayzer (bind.kts:5:8)
+[07-18-2025 21:48:42] [I] [32m重载成功: Enabled
+[07-18-2025 21:48:50] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-18-2025 21:48:50] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ，请在QQ群中发送“/绑定 903510”绑定账号后再进入服务器(机器人不会回复)
+[07-18-2025 21:48:50] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-18-2025 21:49:06] [I] [32m重载成功: Enabled
+[07-18-2025 21:49:11] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-18-2025 21:49:11] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ，请在QQ群中发送“绑定 883263”绑定账号
+[07-18-2025 21:49:11] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-18-2025 21:49:35] [I] [32m重载成功: Enabled
+[07-18-2025 21:49:38] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-18-2025 21:49:38] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “绑定 674385”绑定账号
+[07-18-2025 21:49:38] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-18-2025 21:49:57] [I] [32m重载成功: Enabled
+[07-18-2025 21:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-18-2025 21:50:03] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-18-2025 21:50:03] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 748550”绑定账号
+[07-18-2025 21:50:03] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-18-2025 21:50:08] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-18-2025 21:50:08] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 505530”绑定账号
+[07-18-2025 21:50:08] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-18-2025 22:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-18-2025 22:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-18-2025 22:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-18-2025 22:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-18-2025 22:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-18-2025 22:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-18-2025 22:55:06] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: mamoe (bind.kts:11:12)
+[07-18-2025 22:55:46] [I] [32m重载成功: Enabled
+[07-18-2025 22:55:50] [I] [32m重载成功: Enabled
+[07-18-2025 23:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-18-2025 23:02:04] [I] [31m无效指令"genMetadata",请使用 * help 查询
+[07-18-2025 23:02:12] [I] [31m无效指令"genMetadata",请使用 * help 查询
+[07-18-2025 23:02:13] [I] [33m模块bootStrap: 1
+[07-18-2025 23:02:13] [I] [33m模块coreLibrary: 13
+[07-18-2025 23:02:13] [I] [33m模块coreMindustry: 9
+[07-18-2025 23:02:13] [I] [33m模块mapScript: 4
+[07-18-2025 23:02:13] [I] [33m模块mirai: 3
+[07-18-2025 23:02:13] [I] [33m模块wayzer: 37
+[07-18-2025 23:02:13] [I] [33m模块plugins: 2
+[07-18-2025 23:02:13] [I] [32m生成完成
+[07-18-2025 23:03:31] [I] [31m参数错误: * sa packModule  <module>
+[07-19-2025 09:11:37] [I] 4 mods loaded.
+[07-19-2025 09:12:10] [I] ===========================
+[07-19-2025 09:12:10] [I]      ScriptAgent @version@
+[07-19-2025 09:12:10] [I]            By WayZer    
+[07-19-2025 09:12:10] [I] 插件官网: https://git.io/SA4Mindustry
+[07-19-2025 09:12:10] [I] QQ交流群: 1033116078
+[07-19-2025 09:12:10] [I] 共找到99脚本,加载成功69,启用成功65,出错1
+[07-19-2025 09:12:10] [I] ===========================
+[07-19-2025 09:12:10] [I] Server loaded. Type 'help' for help.
+[07-19-2025 09:12:10] [I] [MindustryX] Hooks.init
+[07-19-2025 09:12:18] [I] Opened a server on port 6567.
+[07-19-2025 09:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-19-2025 09:23:45] [I] [32m重载成功: Enabled
+[07-19-2025 09:23:59] [I] [31m无效指令"e",请使用 * help 查询
+[07-19-2025 09:24:08] [I] Game over! Reached wave 11 with 0 players online on map protect-hard.
+[07-19-2025 09:24:08] [I] Next Map is （14）欢迎来到丛林(ID:20867)
+[07-19-2025 09:24:39] [I] [32m重载成功: Enabled
+[07-19-2025 09:29:23] [I] [32m重载成功: Enabled
+[07-19-2025 09:29:32] [I] Game over! Reached wave 4 with 0 players online on map （14）欢迎来到丛林.
+[07-19-2025 09:29:32] [I] Next Map is [32m蒙 古 [31m海 军(ID:18864)
+[07-19-2025 09:29:36] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:29:36] [E] Error when handle event coreMindustry.lib.Listener@54f1f863 in plugins/user/bind: java.lang.NullPointerException: Cannot invoke "mindustry.gen.Player.uuid()" because "mindustry.Vars.player" is null
+	at user.Bind$1.invoke(bind.kts:64)
+	at user.Bind$1.invoke(bind.kts:63)
+	at coreMindustry.lib.Listener.get(ListenExt.kt:38)
+	at arc.Events.fire(Events.java:53)
+	at arc.Events.fire(Events.java:43)
+	at mindustry.core.NetServer.connectConfirm(NetServer.java:855)
+	at mindustry.gen.ConnectConfirmCallPacket.handleServer(ConnectConfirmCallPacket.java:37)
+	at mindustry.net.Net.handleServerReceived(Net.java:352)
+	at mindustry.net.ArcNetProvider$2.lambda$received$2(ArcNetProvider.java:161)
+	at arc.util.TaskQueue.run(TaskQueue.java:17)
+	at arc.backend.headless.HeadlessApplication.mainLoop(HeadlessApplication.java:81)
+	at arc.backend.headless.HeadlessApplication$1.run(HeadlessApplication.java:52)
+
+[07-19-2025 09:29:46] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-19-2025 09:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-19-2025 09:30:29] [I] [32m重载成功: Enabled
+[07-19-2025 09:30:32] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:30:55] [I] [32m重载成功: Enabled
+[07-19-2025 09:30:57] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-19-2025 09:31:09] [I] [32m重载成功: Enabled
+[07-19-2025 09:31:13] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:31:13] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 219404”绑定账号
+[07-19-2025 09:31:13] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:35:23] [I] [32m重载成功: Enabled
+[07-19-2025 09:35:27] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:35:27] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 335688”绑定账号
+[07-19-2025 09:35:27] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:35:48] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:35:48] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 498121”绑定账号
+[07-19-2025 09:35:48] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:36:50] [I] [32m重载成功: Enabled
+[07-19-2025 09:36:53] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:36:53] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 999502”绑定账号
+[07-19-2025 09:36:53] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:38:47] [I] [32m重载成功: Enabled
+[07-19-2025 09:38:51] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:38:52] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 526551”绑定账号
+[07-19-2025 09:38:52] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:39:12] [I] [32m重载成功: Enabled
+[07-19-2025 09:39:51] [I] [32m重载成功: Enabled
+[07-19-2025 09:39:54] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:39:54] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 790467”绑定账号
+[07-19-2025 09:39:54] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-19-2025 09:40:22] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:40:22] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 101153”绑定账号
+[07-19-2025 09:40:22] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:40:53] [I] [32m重载成功: Enabled
+[07-19-2025 09:40:56] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:40:56] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 317166”绑定账号
+[07-19-2025 09:40:56] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:41:11] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:41:11] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 796558”绑定账号
+[07-19-2025 09:41:11] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:42:02] [I] [32m重载成功: Enabled
+[07-19-2025 09:42:05] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:42:05] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 923511”绑定账号
+[07-19-2025 09:42:05] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:42:34] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:42:34] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 160889”绑定账号
+[07-19-2025 09:42:34] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:43:44] [I] [32m重载成功: Enabled
+[07-19-2025 09:43:49] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 09:43:49] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 493556”绑定账号
+[07-19-2025 09:43:49] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 09:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-19-2025 09:57:52] [I] Game over! Reached wave 11 with 0 players online on map [32m蒙 古 [31m海 军.
+[07-19-2025 09:57:52] [I] Next Map is 升级塔防之路(ID:20987)
+[07-19-2025 10:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-19-2025 10:01:16] [I] Shutting down server.
+[07-19-2025 12:01:58] [I] 4 mods loaded.
+[07-19-2025 12:02:22] [I] ===========================
+[07-19-2025 12:02:22] [I]      ScriptAgent @version@
+[07-19-2025 12:02:22] [I]            By WayZer    
+[07-19-2025 12:02:22] [I] 插件官网: https://git.io/SA4Mindustry
+[07-19-2025 12:02:22] [I] QQ交流群: 1033116078
+[07-19-2025 12:02:22] [I] 共找到99脚本,加载成功69,启用成功65,出错1
+[07-19-2025 12:02:22] [I] ===========================
+[07-19-2025 12:02:22] [I] Server loaded. Type 'help' for help.
+[07-19-2025 12:02:22] [I] [MindustryX] Hooks.init
+[07-19-2025 12:02:44] [I] [33m模块bootStrap: 1
+[07-19-2025 12:02:44] [I] [33m模块coreLibrary: 13
+[07-19-2025 12:02:44] [I] [33m模块coreMindustry: 9
+[07-19-2025 12:02:44] [I] [33m模块mapScript: 4
+[07-19-2025 12:02:44] [I] [33m模块mirai: 3
+[07-19-2025 12:02:44] [I] [33m模块plugins: 2
+[07-19-2025 12:02:44] [I] [33m模块wayzer: 37
+[07-19-2025 12:02:44] [I] [32m生成完成
+[07-19-2025 12:02:46] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-19-2025 12:03:07] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-19-2025 12:03:11] [W] 服务器未安装地图,自动使用内置地图
+[07-19-2025 12:03:55] [I] Opened a server on port 6567.
+[07-19-2025 12:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-19-2025 12:10:02] [I] Game over! Reached wave 3 with 0 players online on map Fork.
+[07-19-2025 12:10:46] [W] 服务器未安装地图,自动使用内置地图
+[07-19-2025 12:11:31] [I] Next Map is Veins(ID:17)
+[07-19-2025 12:17:24] [I] [32m重载成功: Enabled
+[07-19-2025 12:17:42] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:17:48] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-19-2025 12:18:49] [I] [32m重载成功: Enabled
+[07-19-2025 12:18:54] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:18:54] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 320565”绑定账号
+[07-19-2025 12:18:54] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 12:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-19-2025 12:20:10] [I] [32m重载成功: Enabled
+[07-19-2025 12:20:11] [I] [31m执行命令出现异常: user.Bind$UserQQ.qq is not in record set
+[07-19-2025 12:21:08] [I] [31m执行命令出现异常: user.Bind$UserQQ.qq is not in record set
+[07-19-2025 12:21:10] [I] [32m重载成功: Enabled
+[07-19-2025 12:21:27] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:21:27] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 228112”绑定账号
+[07-19-2025 12:21:27] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 12:24:20] [I] [32m重载成功: Enabled
+[07-19-2025 12:24:23] [I] [31m无效指令"ttt",请使用 * help 查询
+[07-19-2025 12:24:32] [I] [31m加载失败(ToLoad): 加载失败: Expecting an element (bind.kts:18:40)
+[07-19-2025 12:24:52] [I] [31m加载失败(ToLoad): 加载失败: Expecting an element (bind.kts:19:40)
+[07-19-2025 12:24:57] [I] [32m重载成功: Enabled
+[07-19-2025 12:25:00] [I] [31m加载失败(ToLoad): 加载失败: Expecting an element (bind.kts:19:40)
+[07-19-2025 12:25:10] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: dev (bind.kts:19:8)
+[07-19-2025 12:26:10] [I] [32m重载成功: Enabled
+[07-19-2025 12:26:12] [I] [31m执行命令出现异常: user.Bind$UserQQ.qq is not in record set
+[07-19-2025 12:26:18] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:26:18] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 218677”绑定账号
+[07-19-2025 12:26:18] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 12:26:44] [I] [31m执行命令出现异常: user.Bind$UserQQ.qq is not in record set
+[07-19-2025 12:26:47] [I] [32m重载成功: Enabled
+[07-19-2025 12:26:50] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:26:50] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 669574”绑定账号
+[07-19-2025 12:26:50] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 12:27:04] [I] [32m重载成功: Enabled
+[07-19-2025 12:27:14] [I] [32m重载成功: Enabled
+[07-19-2025 12:27:18] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:27:19] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 474110”绑定账号
+[07-19-2025 12:27:19] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 12:27:31] [I] [32m重载成功: Enabled
+[07-19-2025 12:27:33] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:27:33] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 329062”绑定账号
+[07-19-2025 12:27:33] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 12:28:54] [I] [32m重载成功: Enabled
+[07-19-2025 12:29:36] [I] [32m重载成功: Enabled
+[07-19-2025 12:29:44] [I] [32m重载成功: Enabled
+[07-19-2025 12:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-19-2025 12:30:01] [I] [32m脚本自动热重载监测启动
+[07-19-2025 12:34:40] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:34:40] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 953700”绑定账号
+[07-19-2025 12:34:40] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 12:35:34] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:35:35] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 485166”绑定账号
+[07-19-2025 12:35:35] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 12:39:26] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:39:57] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-19-2025 12:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-19-2025 12:40:00] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:40:00] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 356080”绑定账号
+[07-19-2025 12:40:00] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 12:40:17] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:40:51] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-19-2025 12:42:12] [I] [31m无效指令"upqqsql",请使用 * help 查询
+[07-19-2025 12:42:24] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:42:24] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 788501”绑定账号
+[07-19-2025 12:42:24] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-19-2025 12:42:37] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-19-2025 12:43:48] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (timeout)
+[07-19-2025 12:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-19-2025 13:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-20-2025 17:10:10] [I] 4 mods loaded.
+[07-20-2025 17:10:32] [I] ===========================
+[07-20-2025 17:10:32] [I]      ScriptAgent @version@
+[07-20-2025 17:10:32] [I]            By WayZer    
+[07-20-2025 17:10:32] [I] 插件官网: https://git.io/SA4Mindustry
+[07-20-2025 17:10:32] [I] QQ交流群: 1033116078
+[07-20-2025 17:10:32] [I] 共找到99脚本,加载成功69,启用成功65,出错1
+[07-20-2025 17:10:32] [I] ===========================
+[07-20-2025 17:10:32] [I] Server loaded. Type 'help' for help.
+[07-20-2025 17:10:32] [I] [MindustryX] Hooks.init
+[07-20-2025 17:10:42] [I] Opened a server on port 6567.
+[07-20-2025 17:20:01] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-20-2025 17:22:13] [I] [33m模块bootStrap: 1
+[07-20-2025 17:22:13] [I] [33m模块coreLibrary: 13
+[07-20-2025 17:22:13] [I] [33m模块coreMindustry: 9
+[07-20-2025 17:22:13] [I] [33m模块mapScript: 4
+[07-20-2025 17:22:13] [I] [33m模块mirai: 3
+[07-20-2025 17:22:13] [I] [33m模块plugins: 2
+[07-20-2025 17:22:13] [I] [33m模块wayzer: 37
+[07-20-2025 17:22:13] [I] [32m生成完成
+[07-20-2025 17:22:20] [I] [32m扫描完成,新发现1脚本
+[07-20-2025 17:22:36] [I] [32m重载成功: Enabled
+[07-20-2025 17:23:13] [I] [32m重载成功: Enabled
+[07-20-2025 17:23:40] [I] [32m重载成功: Enabled
+[07-20-2025 17:23:43] [I] [33m模块bootStrap: 1
+[07-20-2025 17:23:43] [I] [33m模块coreLibrary: 13
+[07-20-2025 17:23:43] [I] [33m模块coreMindustry: 9
+[07-20-2025 17:23:43] [I] [33m模块mapScript: 4
+[07-20-2025 17:23:43] [I] [33m模块mirai: 3
+[07-20-2025 17:23:43] [I] [33m模块plugins: 3
+[07-20-2025 17:23:43] [I] [33m模块wayzer: 37
+[07-20-2025 17:23:43] [I] [32m生成完成
+[07-20-2025 17:24:49] [I] Game over! Reached wave 8 with 0 players online on map 荒芜矿区原版.
+[07-20-2025 17:24:49] [I] Next Map is 固守(ID:21037)
+[07-20-2025 17:27:43] [I] [32m重载成功: Enabled
+[07-20-2025 17:28:04] [I] [32m重载成功: Enabled
+[07-20-2025 17:28:12] [I] [32m重载成功: Enabled
+[07-20-2025 17:28:14] [I] [32m重载成功: Enabled
+[07-20-2025 17:28:57] [I] [32m重载成功: Enabled
+[07-20-2025 17:29:39] [I] Game over! Reached wave 3 with 0 players online on map 固守.
+[07-20-2025 17:29:39] [I] Next Map is Infinite Challenge (ID:19541)
+[07-20-2025 17:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-20-2025 17:30:02] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-20-2025 17:30:02] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 699625”绑定账号
+[07-20-2025 17:30:02] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-20-2025 17:30:52] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-20-2025 17:30:56] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-20-2025 17:34:02] [I] [31m参数错误: * sa load  <module[/script]> [--noCache] [--noEnable] [--async]
+[07-20-2025 17:34:04] [I] [31m执行命令出现异常: Index 0 out of bounds for length 0
+[07-20-2025 17:34:12] [I] [32m==== [37mHelp: * sa [32m ====
+[93m* sa config[91m [37m[help/arg...]  [96m查看或修改配置[36m
+[93m* sa disable[91m(关闭) [37m<module[/script]> [--async]  [96m关闭一个脚本或者模块[36m
+[93m* sa enable[91m(启用) [37m<module[/script]> [--async]  [96m(重新)启用一个脚本或者模块[36m
+[93m* sa genMetadata[91m [37m  [96m生成供开发使用的元数据[36m
+[93m* sa help[91m(帮助) [37m[-v] [page=1]  [96m帮助指令[36m
+[93m* sa hotReload[91m [37m  [96m开关脚本自动热重载[36m
+[93m* sa lang[91m [37m  [96m多语言功能[36m
+[93m* sa list[91m(ls, 列出) [37m[module/fail]  [96m列出所有模块或模块内所有脚本[36m
+[93m* sa load[91m(reload, 加载, 重载) [37m<module[/script]> [--noCache] [--noEnable] [--async]  [96m(重新)加载一个脚本或者模块[36m
+[93m* sa mirai[91m [37m[args...]  [96m重定向输入到mirai[36m
+[32m==== [37m1/2[32m ====
+[07-20-2025 17:34:17] [I] [32m加载成功
+[07-20-2025 17:34:22] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-20-2025 17:34:33] [I] [32m==== [37mHelp: * sa lang [32m ====
+[93m* sa lang help[91m(帮助) [37m[-v] [page=1]  [96m帮助指令[36m
+[93m* sa lang load[91m [37m  [96m加载语言文件[36m
+[93m* sa lang save[91m [37m  [96m手动保存语言到文件[36m
+[93m* sa lang set[91m [37m  [96m设置控制台使用语言[36m
+[32m==== [37m1/1[32m ====
+[07-20-2025 17:34:38] [I] [32m保存成功
+[07-20-2025 17:34:40] [I] [32m==== [37mHelp: * sa lang [32m ====
+[93m* sa lang help[91m(帮助) [37m[-v] [page=1]  [96m帮助指令[36m
+[93m* sa lang load[91m [37m  [96m加载语言文件[36m
+[93m* sa lang save[91m [37m  [96m手动保存语言到文件[36m
+[93m* sa lang set[91m [37m  [96m设置控制台使用语言[36m
+[32m==== [37m1/1[32m ====
+[07-20-2025 17:34:42] [I] [32m加载成功
+[07-20-2025 17:34:47] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-20-2025 17:34:50] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-20-2025 17:35:36] [I] [32m加载成功
+[07-20-2025 17:35:40] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-20-2025 17:35:43] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-20-2025 17:35:48] [I] [32m==== [37mHelp: * sa lang [32m ====
+[93m* sa lang help[91m(帮助) [37m[-v] [page=1]  [96m帮助指令[36m
+[93m* sa lang load[91m [37m  [96m加载语言文件[36m
+[93m* sa lang save[91m [37m  [96m手动保存语言到文件[36m
+[93m* sa lang set[91m [37m  [96m设置控制台使用语言[36m
+[32m==== [37m1/1[32m ====
+[07-20-2025 17:35:58] [I] [33m你的当前语言是: @raw
+[07-20-2025 17:36:28] [I] [32m重载成功: Enabled
+[07-20-2025 17:36:31] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-20-2025 17:36:33] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-20-2025 17:36:54] [I] [32m加载成功
+[07-20-2025 17:36:59] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-20-2025 17:37:02] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-20-2025 17:37:07] [I] [32m保存成功
+[07-20-2025 17:37:24] [I] Game over! Reached wave 8 with 1 players online on map Infinite Challenge .
+[07-20-2025 17:37:24] [I] Next Map is 背水一战（饱和火力）(ID:20889)
+[07-20-2025 17:37:26] [I] [32m==== [37mHelp: * sa [32m ====
+[93m* sa config[91m [37m[help/arg...]  [96m查看或修改配置[36m
+[93m* sa disable[91m(关闭) [37m<module[/script]> [--async]  [96m关闭一个脚本或者模块[36m
+[93m* sa enable[91m(启用) [37m<module[/script]> [--async]  [96m(重新)启用一个脚本或者模块[36m
+[93m* sa genMetadata[91m [37m  [96m生成供开发使用的元数据[36m
+[93m* sa help[91m(帮助) [37m[-v] [page=1]  [96m帮助指令[36m
+[93m* sa hotReload[91m [37m  [96m开关脚本自动热重载[36m
+[93m* sa lang[91m [37m  [96m多语言功能[36m
+[93m* sa list[91m(ls, 列出) [37m[module/fail]  [96m列出所有模块或模块内所有脚本[36m
+[93m* sa load[91m(reload, 加载, 重载) [37m<module[/script]> [--noCache] [--noEnable] [--async]  [96m(重新)加载一个脚本或者模块[36m
+[93m* sa mirai[91m [37m[args...]  [96m重定向输入到mirai[36m
+[32m==== [37m1/2[32m ====
+[07-20-2025 17:37:40] [I] [32m保存成功
+[07-20-2025 17:37:46] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-20-2025 17:37:50] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-20-2025 17:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-20-2025 17:40:05] [I] [32m重载成功: Enabled
+[07-20-2025 17:41:11] [I] [32m重载成功: Enabled
+[07-20-2025 17:41:45] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (timeout)
+[07-20-2025 17:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-20-2025 17:54:47] [I] [32m重载成功: Enabled
+[07-20-2025 18:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-20-2025 18:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-20-2025 18:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-20-2025 18:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-20-2025 18:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-20-2025 18:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-20-2025 19:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-20-2025 19:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-20-2025 19:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-20-2025 19:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-21-2025 11:11:03] [I] 4 mods loaded.
+[07-21-2025 11:11:37] [I] ===========================
+[07-21-2025 11:11:37] [I]      ScriptAgent @version@
+[07-21-2025 11:11:37] [I]            By WayZer    
+[07-21-2025 11:11:37] [I] 插件官网: https://git.io/SA4Mindustry
+[07-21-2025 11:11:37] [I] QQ交流群: 1033116078
+[07-21-2025 11:11:37] [I] 共找到100脚本,加载成功70,启用成功66,出错1
+[07-21-2025 11:11:37] [I] ===========================
+[07-21-2025 11:11:37] [I] Server loaded. Type 'help' for help.
+[07-21-2025 11:11:37] [I] [MindustryX] Hooks.init
+[07-21-2025 11:11:47] [I] Opened a server on port 6567.
+[07-21-2025 11:11:59] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-21-2025 11:11:59] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 689556”绑定账号
+[07-21-2025 11:11:59] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-21-2025 11:12:20] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-21-2025 11:12:20] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 515540”绑定账号
+[07-21-2025 11:12:20] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-21-2025 11:14:10] [I] [32m重载成功: Enabled
+[07-21-2025 11:14:15] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-21-2025 11:14:15] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 224032”绑定账号
+[07-21-2025 11:14:15] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-21-2025 11:14:29] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-21-2025 11:15:47] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (timeout)
+[07-21-2025 11:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-21-2025 11:21:03] [I] [32m重载成功: Enabled
+[07-21-2025 11:21:08] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-21-2025 11:21:22] [I] <zxs|x8f: /skill home>
+[07-21-2025 11:21:54] [I] <zxs|x8f: /skill>
+[07-21-2025 11:22:40] [I] Players: 1
+[07-21-2025 11:22:40] [I]  [P] zxs|x8f / ID: AFiFzamvFBwAAAAA8ggWcA== / IP: 192.168.0.114
+[07-21-2025 11:22:47] [I] Changed admin status of player: zxs
+[07-21-2025 11:22:58] [I] <zxs|x8f: /skill home>
+[07-21-2025 11:22:58] [I] 归家
+[07-21-2025 11:24:17] [I] Game over! Reached wave 7 with 1 players online on map 荒芜矿区原版.
+[07-21-2025 11:24:17] [I] Next Map is 接力生存（饱和火力）(ID:20975)
+[07-21-2025 11:24:53] [I] <zxs|x8f: /test>
+[07-21-2025 11:25:01] [I] [32m重载成功: Enabled
+[07-21-2025 11:25:03] [I] <zxs|x8f: /test>
+[07-21-2025 11:25:09] [I] <zxs|x8f: /test>
+[07-21-2025 11:26:39] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (timeout)
+[07-21-2025 11:26:46] [I] [32m重载成功: Enabled
+[07-21-2025 11:26:49] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-21-2025 11:26:59] [I] <zxs|x8f: /skill home>
+[07-21-2025 11:27:03] [I] <zxs|x8f: /skill home>
+[07-21-2025 11:27:08] [I] [32m重载成功: Enabled
+[07-21-2025 11:27:11] [I] <zxs|x8f: /skill home>
+[07-21-2025 11:27:26] [I] [32m重载成功: Enabled
+[07-21-2025 11:27:32] [I] <zxs|x8f: /skill home>
+[07-21-2025 11:27:37] [I] <zxs|x8f: /skill home>
+[07-21-2025 11:28:11] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (timeout)
+[07-21-2025 11:28:25] [I] [32m重载成功: Enabled
+[07-21-2025 11:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-21-2025 11:39:41] [I] [32m重载成功: Enabled
+[07-21-2025 11:39:51] [I] Game over! Reached wave 12 with 0 players online on map 接力生存（饱和火力）.
+[07-21-2025 11:39:51] [I] Next Map is [32m蒙 古 [31m海 军(ID:18864)
+[07-21-2025 11:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-21-2025 11:40:05] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-21-2025 11:40:05] [I] Kicking connection 192.168.0.114 / AFiFzamvFBwAAAAA8ggWcA==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 125883”绑定账号
+[07-21-2025 11:40:05] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (disappeared)
+[07-21-2025 11:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-21-2025 12:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-21-2025 12:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-21-2025 12:11:15] [I] Game over! Reached wave 11 with 0 players online on map [32m蒙 古 [31m海 军.
+[07-21-2025 12:11:15] [I] Next Map is 始发地区 [31m强化版(ID:20956)
+[07-21-2025 12:16:00] [I] Game over! Reached wave 1 with 0 players online on map 始发地区 [31m强化版.
+[07-21-2025 12:16:02] [I] Next Map is nuclearProductionComplex(ID:21069)
+[07-21-2025 12:18:42] [I] [31m无效指令"sc",请使用 * sa help 查询
+[07-21-2025 12:18:44] [I] [32m扫描完成,新发现0脚本
+[07-21-2025 12:18:52] [I] [32m扫描完成,新发现0脚本
+[07-21-2025 12:19:04] [I] [32m重载成功: Enabled
+[07-21-2025 12:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-21-2025 12:21:51] [I] Game over! Reached wave 2 with 0 players online on map nuclearProductionComplex.
+[07-21-2025 12:21:51] [I] Next Map is 升级塔防之路(ID:20987)
+[07-21-2025 12:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-21-2025 12:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-21-2025 12:45:51] [I] [32m重载成功: Enabled
+[07-21-2025 12:46:46] [I] [32m重载成功: Enabled
+[07-21-2025 12:47:07] [I] [32m重载成功: Enabled
+[07-21-2025 12:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-21-2025 12:52:50] [I] [33m模块bootStrap: 1
+[07-21-2025 12:52:50] [I] [33m模块coreLibrary: 13
+[07-21-2025 12:52:50] [I] [33m模块coreMindustry: 9
+[07-21-2025 12:52:50] [I] [33m模块mapScript: 4
+[07-21-2025 12:52:50] [I] [33m模块mirai: 4
+[07-21-2025 12:52:50] [I] [33m模块plugins: 3
+[07-21-2025 12:52:50] [I] [33m模块wayzer: 37
+[07-21-2025 12:52:50] [I] [32m生成完成
+[07-21-2025 13:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-21-2025 13:02:28] [I] [32m重载成功: Enabled
+[07-21-2025 13:02:43] [I] [31m找不到模块或者脚本
+[07-21-2025 13:03:05] [I] [31m找不到模块或者脚本
+[07-21-2025 13:03:07] [I] [32m重载成功: Enabled
+[07-21-2025 13:03:10] [I] [31m找不到模块或者脚本
+[07-21-2025 13:03:14] [I] [31m找不到模块或者脚本
+[07-21-2025 13:03:17] [I] [32m扫描完成,新发现1脚本
+[07-21-2025 13:03:21] [I] [31m加载失败(ToLoad): 加载失败: Object NewMiraiCommand captures the script class instance. Try to use class or anonymous object instead (miraiCommandApi.kts:22:1)
+[07-21-2025 13:05:45] [I] [32m重载成功: Enabled
+[07-21-2025 13:05:50] [I] [32m重载成功: Enabled
+[07-21-2025 13:06:15] [I] [33m==== [93mmirai脚本[33m ====
+[0m[ToLoad] mirai/baka                     加载失败: Fail to load dependency mirai/miraiCommandApi for  (baka.kts)
+[0m[ToLoad] mirai/stauts                   加载失败: Fail to load dependency mirai/miraiCommandApi for  (stauts.kts)
+[35m[Enabled] mirai/miraiCommandApi
+[07-21-2025 13:06:23] [I] [32m重载成功: Enabled
+[07-21-2025 13:06:25] [I] [33m==== [93mmirai脚本[33m ====
+[0m[ToLoad] mirai/baka                     实例化出错: java.lang.reflect.InvocationTargetException
+[0m[ToLoad] mirai/stauts                   实例化出错: java.lang.reflect.InvocationTargetException
+[35m[Enabled] mirai/miraiCommandApi
+[07-21-2025 13:06:35] [I] [31m加载失败(ToLoad): 实例化出错: java.lang.reflect.InvocationTargetException
+[07-21-2025 13:07:27] [I] [32m重载成功: Enabled
+[07-21-2025 13:07:32] [I] [32m重载成功: Enabled
+[07-21-2025 13:07:33] [I] [31m加载失败(ToLoad): 实例化出错: java.lang.reflect.InvocationTargetException
+[07-21-2025 13:09:18] [I] Shutting down server.
+[07-21-2025 13:09:28] [I] 4 mods loaded.
+[07-21-2025 13:09:36] [I] ===========================
+[07-21-2025 13:09:36] [I]      ScriptAgent @version@
+[07-21-2025 13:09:36] [I]            By WayZer    
+[07-21-2025 13:09:36] [I] 插件官网: https://git.io/SA4Mindustry
+[07-21-2025 13:09:36] [I] QQ交流群: 1033116078
+[07-21-2025 13:09:36] [I] 共找到101脚本,加载成功69,启用成功65,出错3
+[07-21-2025 13:09:36] [I] ===========================
+[07-21-2025 13:09:36] [I] Server loaded. Type 'help' for help.
+[07-21-2025 13:09:36] [I] [MindustryX] Hooks.init
+[07-21-2025 13:09:44] [I] Opened a server on port 6567.
+[07-21-2025 13:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-21-2025 13:18:13] [I] [32m重载成功: Removed
+[07-21-2025 13:18:16] [I] [31m加载失败(ToLoad): 加载失败: Fail to load dependency mirai/miraiCommandApi for  (baka.kts)
+[07-21-2025 13:18:24] [I] [31m加载失败(ToLoad): 加载失败: Fail to load dependency mirai/lib/miraiCommandApi for  (baka.kts)
+[07-21-2025 13:18:37] [I] [32m重载成功: Enabled
+[07-21-2025 13:18:46] [I] [33m==== [93mmirai脚本[33m ====
+[0m[ToLoad] mirai/baka                     加载失败: Fail to load dependency mirai/lib/miraiCommandApi for  (baka.kts)
+[0m[ToLoad] mirai/stauts                   实例化出错: java.lang.reflect.InvocationTargetException
+[07-21-2025 13:18:59] [I] [31m找不到模块或者脚本
+[07-21-2025 13:19:06] [I] [32m扫描完成,新发现0脚本
+[07-21-2025 13:19:15] [I] [31m找不到模块或者脚本
+[07-21-2025 13:19:30] [I] [31m加载失败(ToLoad): 加载失败: Fail to load dependency mirai/lib/miraiCommandApi for  (baka.kts)
+[07-21-2025 13:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-21-2025 13:20:09] [I] [31m加载失败(ToLoad): 加载失败: Fail to load dependency mirai/miraiCommandApi for  (baka.kts)
+[07-21-2025 13:20:12] [I] [32m扫描完成,新发现1脚本
+[07-21-2025 13:20:17] [I] [32m重载成功: Enabled
+[07-21-2025 13:20:19] [I] [32m扫描完成,新发现0脚本
+[07-21-2025 13:20:23] [I] [31m找不到模块或者脚本
+[07-21-2025 13:20:30] [I] [31m加载失败(ToLoad): 加载失败: Object T captures the script class instance. Try to use class or anonymous object instead (miraiCommandApi.kts:22:1)
+[07-21-2025 13:23:08] [I] [31m加载失败(ToLoad): 加载失败: Object Tt captures the script class instance. Try to use class or anonymous object instead (miraiCommandApi.kts:69:1)
+[07-21-2025 13:23:32] [I] [32m重载成功: Enabled
+[07-21-2025 13:25:29] [I] [32m重载成功: Enabled
+[07-21-2025 13:25:57] [I] [31m加载失败(ToLoad): 加载失败: Object T captures the script class instance. Try to use class or anonymous object instead (miraiCommandApi.kts:15:1)
+[07-21-2025 13:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-21-2025 13:34:51] [I] [32m重载成功: Enabled
+[07-21-2025 13:34:53] [I] [31m加载失败(ToLoad): 实例化出错: java.lang.reflect.InvocationTargetException
+[07-21-2025 13:35:14] [I] [31m加载失败(ToEnable): java.lang.NoSuchMethodError: MiraiCommandApi$MiraiCommands: method 'void <init>()' not found
+[07-21-2025 13:35:42] [I] [31m加载失败(ToEnable): java.lang.NoSuchMethodError: MiraiCommandApi$MiraiCommands: method 'void <init>()' not found
+[07-21-2025 13:37:04] [I] [31m加载失败(ToLoad): 实例化出错: java.lang.reflect.InvocationTargetException
+[07-21-2025 13:37:44] [I] [31m加载失败(ToLoad): 加载失败: Object MiraiCommands captures the script class instance. Try to use class or anonymous object instead (miraiCommandApi.kts:15:1)
+[07-21-2025 13:38:11] [I] [32m重载成功: Enabled
+[07-21-2025 13:38:14] [I] Game over! Reached wave 11 with 0 players online on map [32m蒙 古 [31m海 军.
+[07-21-2025 13:38:14] [I] Next Map is 边陲小镇(ID:21031)
+[07-21-2025 13:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-21-2025 13:42:36] [I] [31m加载失败(ToLoad): 加载失败: Object T captures the script class instance. Try to use class or anonymous object instead (miraiCommandApi.kts:15:1)
+[07-21-2025 20:40:10] [I] 4 mods loaded.
+[07-21-2025 20:40:42] [I] ===========================
+[07-21-2025 20:40:42] [I]      ScriptAgent @version@
+[07-21-2025 20:40:42] [I]            By WayZer    
+[07-21-2025 20:40:42] [I] 插件官网: https://git.io/SA4Mindustry
+[07-21-2025 20:40:42] [I] QQ交流群: 1033116078
+[07-21-2025 20:40:42] [I] 共找到101脚本,加载成功70,启用成功66,出错2
+[07-21-2025 20:40:42] [I] ===========================
+[07-21-2025 20:40:42] [I] Server loaded. Type 'help' for help.
+[07-21-2025 20:40:42] [I] [MindustryX] Hooks.init
+[07-21-2025 20:41:11] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-21-2025 20:41:19] [I] [33m==== [93mfail脚本[33m ====
+[0m[ToLoad] mirai/stauts                   实例化出错: java.lang.reflect.InvocationTargetException
+[0m[ToEnable] wayzer/reGrief/limitFire       java.lang.NoSuchFieldException: map
+[07-21-2025 20:41:25] [I] [32m重载成功: Enabled
+[07-21-2025 20:41:32] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-21-2025 20:41:33] [W] 服务器未安装地图,自动使用内置地图
+[07-21-2025 20:42:18] [I] Opened a server on port 6567.
+[07-21-2025 20:43:49] [I] [32m重载成功: Enabled
+[07-21-2025 20:44:02] [I] [32m重载成功: Enabled
+[07-21-2025 20:47:34] [I] Game over! Reached wave 2 with 0 players online on map Debris Field.
+[07-21-2025 20:48:18] [W] 服务器未安装地图,自动使用内置地图
+[07-21-2025 20:49:02] [I] Next Map is Wasteland(ID:18)
+[07-21-2025 20:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-21-2025 20:55:54] [I] Game over! Reached wave 3 with 0 players online on map Wasteland.
+[07-21-2025 20:56:39] [W] 服务器未安装地图,自动使用内置地图
+[07-21-2025 20:57:23] [I] Next Map is Debris Field(ID:3)
+[07-21-2025 20:57:46] [I] [32m==== [37m服务器地图 By WayZer[32m ====
+
+[32m==== [37m1/0[32m ====
+[07-21-2025 21:00:01] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-21-2025 21:02:39] [I] Game over! Reached wave 2 with 0 players online on map Debris Field.
+[07-21-2025 21:03:23] [W] 服务器未安装地图,自动使用内置地图
+[07-21-2025 21:04:07] [I] Next Map is Wasteland(ID:18)
+[07-21-2025 21:04:36] [I] [32m重载成功: Enabled
+[07-21-2025 21:04:47] [I] Shutting down server.
+[07-21-2025 21:05:12] [I] 4 mods loaded.
+[07-21-2025 21:05:20] [I] ===========================
+[07-21-2025 21:05:20] [I]      ScriptAgent @version@
+[07-21-2025 21:05:20] [I]            By WayZer    
+[07-21-2025 21:05:20] [I] 插件官网: https://git.io/SA4Mindustry
+[07-21-2025 21:05:20] [I] QQ交流群: 1033116078
+[07-21-2025 21:05:20] [I] 共找到101脚本,加载成功71,启用成功67,出错1
+[07-21-2025 21:05:20] [I] ===========================
+[07-21-2025 21:05:20] [I] Server loaded. Type 'help' for help.
+[07-21-2025 21:05:20] [I] [MindustryX] Hooks.init
+[07-21-2025 21:05:35] [I] [33m==== [93mfail脚本[33m ====
+[0m[ToEnable] wayzer/reGrief/limitFire       java.lang.NoSuchFieldException: map
+[07-21-2025 21:05:42] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-21-2025 21:06:03] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-21-2025 21:06:09] [W] 服务器未安装地图,自动使用内置地图
+[07-21-2025 21:06:50] [W] 服务器未安装地图,自动使用内置地图
+[07-21-2025 21:06:53] [I] Opened a server on port 6567.
+[07-21-2025 21:07:34] [I] [32m强制换图为MapInfo(name='Molten Lake', author='未知', mode=生存, id=11, provider=wayzer.Maps$1@47d4a31e)
+[07-21-2025 21:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-21-2025 21:12:46] [I] 4 mods loaded.
+[07-21-2025 21:12:55] [I] ===========================
+[07-21-2025 21:12:55] [I]      ScriptAgent @version@
+[07-21-2025 21:12:55] [I]            By WayZer    
+[07-21-2025 21:12:55] [I] 插件官网: https://git.io/SA4Mindustry
+[07-21-2025 21:12:55] [I] QQ交流群: 1033116078
+[07-21-2025 21:12:55] [I] 共找到101脚本,加载成功71,启用成功67,出错1
+[07-21-2025 21:12:55] [I] ===========================
+[07-21-2025 21:12:55] [I] Server loaded. Type 'help' for help.
+[07-21-2025 21:12:55] [I] [MindustryX] Hooks.init
+[07-21-2025 21:13:06] [I] [33m==== [93mfail脚本[33m ====
+[0m[ToEnable] wayzer/reGrief/limitFire       java.lang.NoSuchFieldException: map
+[07-21-2025 21:13:16] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-21-2025 21:13:38] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-21-2025 21:13:46] [I] Opened a server on port 6567.
+[07-21-2025 21:13:56] [I] [32m重载成功: Enabled
+[07-21-2025 21:15:14] [I] [32m重载成功: Enabled
+[07-21-2025 21:15:30] [I] [32m重载成功: Enabled
+[07-21-2025 21:16:05] [I] [31m找不到模块或者脚本
+[07-21-2025 21:16:13] [I] [32m重载成功: Enabled
+[07-21-2025 21:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-21-2025 21:20:45] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-21-2025 21:21:29] [I] Next Map is 火岩前哨(ID:1)
+[07-21-2025 21:28:39] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-21-2025 21:29:23] [I] Next Map is 火岩前哨(ID:1)
+[07-21-2025 21:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-21-2025 21:35:30] [I] [31m加载失败(ToLoad): 加载失败: Type mismatch: inferred type is Unit but Comparable<TypeVariable(R)> was expected (baka.kts:14:40)
+[07-21-2025 21:35:47] [I] [32m重载成功: Enabled
+[07-21-2025 21:36:32] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-21-2025 21:36:35] [I] [32m重载成功: Enabled
+[07-21-2025 21:37:17] [I] Next Map is 火岩前哨(ID:1)
+[07-21-2025 21:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-21-2025 21:44:26] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-21-2025 21:45:10] [I] Next Map is 火岩前哨(ID:1)
+[07-21-2025 21:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-21-2025 21:52:19] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-21-2025 21:53:06] [I] Next Map is 火岩前哨(ID:1)
+[07-21-2025 22:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-21-2025 22:00:16] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-21-2025 22:01:00] [I] Next Map is 火岩前哨(ID:1)
+[07-21-2025 22:08:09] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-21-2025 22:08:50] [I] Next Map is 背水一战（饱和火力）(ID:20889)
+[07-21-2025 22:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-21-2025 22:10:34] [I] [31m加载地图地图背水一战（饱和火力）失败: Connection timed out: connect
+[07-21-2025 22:12:03] [I] [31m加载地图地图QQ农场 [33m养老版失败: Connection timed out: connect
+[07-21-2025 22:13:32] [I] [31m加载地图地图前赛普罗-孢子研究室失败: Connection timed out: connect
+[07-21-2025 22:15:02] [I] [31m加载地图地图QQ农场 [33m养老版失败: Connection timed out: connect
+[07-21-2025 22:16:31] [I] [31m加载地图地图荒芜矿区原版失败: Connection timed out: connect
+[07-21-2025 22:18:00] [I] [31m加载地图地图[32m蒙 古 [31m海 军失败: Connection timed out: connect
+[07-21-2025 22:19:20] [E] mindustry.io.SaveIO$SaveException: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveIO.load(SaveIO.java:175)
+	at mindustry.io.SaveIO.load(SaveIO.java:150)
+	at mindustry.core.World.loadMap(World.java:355)
+	at mindustry.core.World.loadMap(World.java:344)
+	at wayzer.MapProvider.loadMap$suspendImpl(maps.registry.kt:50)
+	at wayzer.MapProvider.loadMap(maps.registry.kt)
+	at wayzer.MapManager.loadMapSync(maps.manager.kt:112)
+	at wayzer.MapManager$loadMapSync$2.invokeSuspend(maps.manager.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at arc.util.TaskQueue.run(TaskQueue.java:17)
+	at arc.backend.headless.HeadlessApplication.mainLoop(HeadlessApplication.java:81)
+	at arc.backend.headless.HeadlessApplication$1.run(HeadlessApplication.java:52)
+Caused by: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:98)
+	at mindustry.io.SaveVersion.read(SaveVersion.java:76)
+	at mindustry.io.SaveIO.load(SaveIO.java:172)
+	... 12 more
+Caused by: java.io.IOException: Could not skip bytes. Expected length: 51913; Actual length: 24927
+	at mindustry.io.SaveFileReader.skipChunk(SaveFileReader.java:177)
+	at mindustry.io.SaveVersion.readMap(SaveVersion.java:343)
+	at mindustry.io.SaveVersion.lambda$read$1(SaveVersion.java:76)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:164)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:157)
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:96)
+	... 14 more
+
+[07-21-2025 22:19:20] [E] mindustry.io.SaveIO$SaveException: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveIO.load(SaveIO.java:157)
+	at mindustry.core.World.loadMap(World.java:355)
+	at mindustry.core.World.loadMap(World.java:344)
+	at wayzer.MapProvider.loadMap$suspendImpl(maps.registry.kt:50)
+	at wayzer.MapProvider.loadMap(maps.registry.kt)
+	at wayzer.MapManager.loadMapSync(maps.manager.kt:112)
+	at wayzer.MapManager$loadMapSync$2.invokeSuspend(maps.manager.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at arc.util.TaskQueue.run(TaskQueue.java:17)
+	at arc.backend.headless.HeadlessApplication.mainLoop(HeadlessApplication.java:81)
+	at arc.backend.headless.HeadlessApplication$1.run(HeadlessApplication.java:52)
+Caused by: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:98)
+	at mindustry.io.SaveVersion.read(SaveVersion.java:76)
+	at mindustry.io.SaveIO.load(SaveIO.java:172)
+	at mindustry.io.SaveIO.load(SaveIO.java:150)
+	... 11 more
+Caused by: java.io.IOException: Could not skip bytes. Expected length: 51913; Actual length: 24927
+	at mindustry.io.SaveFileReader.skipChunk(SaveFileReader.java:177)
+	at mindustry.io.SaveVersion.readMap(SaveVersion.java:343)
+	at mindustry.io.SaveVersion.lambda$read$1(SaveVersion.java:76)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:164)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:157)
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:96)
+	... 14 more
+
+[07-21-2025 22:19:20] [I] Game over! Reached wave 1 with 0 players online on map 千岛雾岭.
+[07-21-2025 22:19:20] [I] Next Map is 边陲小镇(ID:21031)
+[07-21-2025 22:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-21-2025 22:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-21-2025 22:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-21-2025 22:46:14] [I] Shutting down server.
+[07-21-2025 22:46:31] [I] 4 mods loaded.
+[07-21-2025 22:46:51] [I] ===========================
+[07-21-2025 22:46:51] [I]      ScriptAgent @version@
+[07-21-2025 22:46:51] [I]            By WayZer    
+[07-21-2025 22:46:51] [I] 插件官网: https://git.io/SA4Mindustry
+[07-21-2025 22:46:51] [I] QQ交流群: 1033116078
+[07-21-2025 22:46:51] [I] 共找到102脚本,加载成功71,启用成功67,出错2
+[07-21-2025 22:46:51] [I] ===========================
+[07-21-2025 22:46:51] [I] Server loaded. Type 'help' for help.
+[07-21-2025 22:46:51] [I] [MindustryX] Hooks.init
+[07-21-2025 22:47:13] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-21-2025 22:47:21] [I] [33m==== [93mfail脚本[33m ====
+[0m[ToLoad] plugins/mirai/info             加载失败: Unresolved reference: wayzer (info.kts:9:8)
+[0m[ToEnable] wayzer/reGrief/limitFire       java.lang.NoSuchFieldException: map
+[07-21-2025 22:47:27] [I] Opened a server on port 6567.
+[07-21-2025 22:47:34] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-21-2025 22:47:40] [I] [32m重载成功: Enabled
+[07-21-2025 22:47:42] [I] [33m==== [93mfail脚本[33m ====
+[0m[ToEnable] wayzer/reGrief/limitFire       java.lang.NoSuchFieldException: map
+[07-21-2025 22:47:48] [I] [32m重载成功: Enabled
+[07-22-2025 13:20:47] [I] 4 mods loaded.
+[07-22-2025 13:21:59] [I] ===========================
+[07-22-2025 13:21:59] [I]      ScriptAgent @version@
+[07-22-2025 13:21:59] [I]            By WayZer    
+[07-22-2025 13:21:59] [I] 插件官网: https://git.io/SA4Mindustry
+[07-22-2025 13:21:59] [I] QQ交流群: 1033116078
+[07-22-2025 13:21:59] [I] 共找到102脚本,加载成功72,启用成功68,出错1
+[07-22-2025 13:21:59] [I] ===========================
+[07-22-2025 13:21:59] [I] Server loaded. Type 'help' for help.
+[07-22-2025 13:21:59] [I] [MindustryX] Hooks.init
+[07-22-2025 13:22:29] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-22-2025 13:22:50] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-22-2025 13:23:33] [I] Opened a server on port 6567.
+[07-22-2025 13:25:29] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: p (info.kts:20:36)
+[07-22-2025 13:26:00] [I] [32m重载成功: Enabled
+[07-22-2025 13:26:14] [I] [31m加载失败(ToLoad): 加载失败: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type UserSql.PlayerGameData? (info.kts:20:27)
+[07-22-2025 13:26:35] [I] [32m重载成功: Enabled
+[07-22-2025 13:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-22-2025 13:30:36] [I] [32m重载成功: Enabled
+[07-22-2025 13:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-22-2025 21:49:00] [I] 4 mods loaded.
+[07-22-2025 21:49:32] [I] ===========================
+[07-22-2025 21:49:32] [I]      ScriptAgent @version@
+[07-22-2025 21:49:32] [I]            By WayZer    
+[07-22-2025 21:49:32] [I] 插件官网: https://git.io/SA4Mindustry
+[07-22-2025 21:49:32] [I] QQ交流群: 1033116078
+[07-22-2025 21:49:32] [I] 共找到102脚本,加载成功72,启用成功68,出错1
+[07-22-2025 21:49:32] [I] ===========================
+[07-22-2025 21:49:32] [I] Server loaded. Type 'help' for help.
+[07-22-2025 21:49:32] [I] [MindustryX] Hooks.init
+[07-22-2025 21:50:01] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-22-2025 21:50:22] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-22-2025 21:50:24] [I] Opened a server on port 6567.
+[07-22-2025 21:52:17] [I] [31m找不到模块或者脚本
+[07-22-2025 21:52:23] [I] [32m重载成功: Enabled
+[07-22-2025 21:52:59] [I] [32m重载成功: Enabled
+[07-22-2025 21:53:24] [I] [32m重载成功: Enabled
+[07-22-2025 21:54:38] [I] [32m重载成功: Enabled
+[07-22-2025 21:55:03] [I] [32m重载成功: Enabled
+[07-22-2025 21:57:23] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-22-2025 21:57:39] [I] [32m重载成功: Enabled
+[07-22-2025 21:58:09] [I] Next Map is 火岩前哨(ID:1)
+[07-22-2025 21:59:30] [I] [32m重载成功: Enabled
+[07-22-2025 22:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-22-2025 22:05:49] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-22-2025 22:06:33] [I] Next Map is 火岩前哨(ID:1)
+[07-22-2025 22:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-22-2025 22:13:43] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-22-2025 22:14:28] [I] Next Map is 火岩前哨(ID:1)
+[07-22-2025 22:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-22-2025 22:21:37] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-22-2025 22:22:23] [I] Next Map is 火岩前哨(ID:1)
+[07-22-2025 22:29:32] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-22-2025 22:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-22-2025 22:30:17] [I] Next Map is 火岩前哨(ID:1)
+[07-22-2025 22:37:26] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-22-2025 22:38:10] [I] Next Map is 火岩前哨(ID:1)
+[07-22-2025 22:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-22-2025 22:45:19] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-22-2025 22:46:05] [I] Next Map is 火岩前哨(ID:1)
+[07-22-2025 22:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-22-2025 22:53:14] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-22-2025 22:53:58] [I] Next Map is 火岩前哨(ID:1)
+[07-22-2025 23:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-22-2025 23:01:08] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-22-2025 23:01:55] [I] Next Map is 火岩前哨(ID:1)
+[07-22-2025 23:09:04] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-22-2025 23:09:51] [I] Next Map is 火岩前哨(ID:1)
+[07-22-2025 23:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-24-2025 19:25:05] [I] 4 mods loaded.
+[07-24-2025 19:26:19] [I] ===========================
+[07-24-2025 19:26:19] [I]      ScriptAgent @version@
+[07-24-2025 19:26:19] [I]            By WayZer    
+[07-24-2025 19:26:19] [I] 插件官网: https://git.io/SA4Mindustry
+[07-24-2025 19:26:19] [I] QQ交流群: 1033116078
+[07-24-2025 19:26:19] [I] 共找到102脚本,加载成功72,启用成功68,出错1
+[07-24-2025 19:26:19] [I] ===========================
+[07-24-2025 19:26:19] [I] Server loaded. Type 'help' for help.
+[07-24-2025 19:26:19] [I] [MindustryX] Hooks.init
+[07-24-2025 19:26:45] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-24-2025 19:27:06] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-24-2025 19:27:09] [I] Opened a server on port 6567.
+[07-24-2025 19:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-24-2025 19:34:09] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-24-2025 19:34:53] [I] Next Map is 火岩前哨(ID:1)
+[07-24-2025 19:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-24-2025 19:42:03] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-24-2025 19:42:30] [I] Next Map is 循环圈塔防(ID:21102)
+[07-24-2025 19:44:08] [I] [31m加载地图地图循环圈塔防失败: Connection timed out: connect
+[07-24-2025 19:45:40] [I] [31m加载地图地图单位进化失败: Connection timed out: connect
+[07-24-2025 19:47:09] [I] [31m加载地图地图QQ农场 [33m养老版失败: Connection timed out: connect
+[07-24-2025 19:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-24-2025 20:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-24-2025 20:05:52] [I] [32m重载成功: Enabled
+[07-24-2025 20:06:54] [I] Shutting down server.
+[07-24-2025 20:10:24] [I] 4 mods loaded.
+[07-24-2025 20:10:33] [I] ===========================
+[07-24-2025 20:10:33] [I]      ScriptAgent @version@
+[07-24-2025 20:10:33] [I]            By WayZer    
+[07-24-2025 20:10:33] [I] 插件官网: https://git.io/SA4Mindustry
+[07-24-2025 20:10:33] [I] QQ交流群: 1033116078
+[07-24-2025 20:10:33] [I] 共找到102脚本,加载成功72,启用成功68,出错1
+[07-24-2025 20:10:33] [I] ===========================
+[07-24-2025 20:10:33] [I] Server loaded. Type 'help' for help.
+[07-24-2025 20:10:33] [I] [MindustryX] Hooks.init
+[07-24-2025 20:10:55] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-24-2025 20:11:16] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-24-2025 20:11:23] [I] Opened a server on port 6567.
+[07-24-2025 20:11:45] [I] Shutting down server.
+[07-24-2025 20:12:11] [I] 4 mods loaded.
+[07-24-2025 20:12:19] [I] ===========================
+[07-24-2025 20:12:19] [I]      ScriptAgent @version@
+[07-24-2025 20:12:19] [I]            By WayZer    
+[07-24-2025 20:12:19] [I] 插件官网: https://git.io/SA4Mindustry
+[07-24-2025 20:12:19] [I] QQ交流群: 1033116078
+[07-24-2025 20:12:19] [I] 共找到102脚本,加载成功72,启用成功68,出错1
+[07-24-2025 20:12:19] [I] ===========================
+[07-24-2025 20:12:19] [I] Server loaded. Type 'help' for help.
+[07-24-2025 20:12:19] [I] [MindustryX] Hooks.init
+[07-24-2025 20:12:40] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-24-2025 20:13:01] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-24-2025 20:13:08] [I] Opened a server on port 6567.
+[07-24-2025 20:14:25] [I] [32m重载成功: Enabled
+[07-24-2025 20:17:53] [I] [32m重载成功: Enabled
+[07-24-2025 20:19:44] [I] [32m重载成功: Enabled
+[07-24-2025 20:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-24-2025 20:20:08] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-24-2025 20:20:28] [I] [32m重载成功: Enabled
+[07-24-2025 20:20:52] [I] Next Map is 火岩前哨(ID:1)
+[07-24-2025 20:28:01] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-24-2025 20:28:32] [I] Next Map is 火岩前哨(ID:1)
+[07-24-2025 20:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-24-2025 20:35:41] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-24-2025 20:36:27] [I] Next Map is 火岩前哨(ID:1)
+[07-24-2025 20:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-24-2025 20:43:36] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-24-2025 20:44:20] [I] Next Map is 火岩前哨(ID:1)
+[07-24-2025 20:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-24-2025 20:51:30] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-24-2025 20:51:46] [I] Next Map is 单位进化（草地）(ID:21002)
+[07-24-2025 20:53:09] [I] [31m加载地图地图单位进化（草地）失败: Connection timed out: connect
+[07-24-2025 21:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-24-2025 21:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-24-2025 21:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-26-2025 22:08:47] [I] 4 mods loaded.
+[07-26-2025 22:09:17] [I] ===========================
+[07-26-2025 22:09:17] [I]      ScriptAgent @version@
+[07-26-2025 22:09:17] [I]            By WayZer    
+[07-26-2025 22:09:17] [I] 插件官网: https://git.io/SA4Mindustry
+[07-26-2025 22:09:17] [I] QQ交流群: 1033116078
+[07-26-2025 22:09:17] [I] 共找到103脚本,加载成功72,启用成功68,出错2
+[07-26-2025 22:09:17] [I] ===========================
+[07-26-2025 22:09:17] [I] Server loaded. Type 'help' for help.
+[07-26-2025 22:09:17] [I] [MindustryX] Hooks.init
+[07-26-2025 22:09:41] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-26-2025 22:09:43] [I] [31m加载失败(ToLoad): 加载失败: Object MapDD captures the script class instance. Try to use class or anonymous object instead (MapDD.kts:7:1)
+[07-26-2025 22:09:50] [I] Opened a server on port 6567.
+[07-26-2025 22:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-26-2025 22:10:02] [I] [31m加载失败(ToLoad): 加载失败: Object MapDD captures the script class instance. Try to use class or anonymous object instead (MapDD.kts:7:1)
+[07-26-2025 22:10:02] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-26-2025 22:10:27] [I] [31m加载失败(ToLoad): 加载失败: Object MapDD captures the script class instance. Try to use class or anonymous object instead (MapDD.kts:7:1)
+[07-26-2025 22:10:36] [I] [31m加载失败(ToLoad): 加载失败: Object MapDD captures the script class instance. Try to use class or anonymous object instead (MapDD.kts:7:1)
+[07-26-2025 22:10:49] [I] [32m重载成功: Enabled
+[07-26-2025 22:11:01] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-26-2025 22:11:05] [I] <zxs|x8f: /t>
+[07-26-2025 22:11:19] [I] zxs|x8f [AFiFzamvFBwAAAAA8ggWcA==] has skipped the wave.
+[07-26-2025 22:11:28] [I] <zxs|x8f: /t>
+[07-26-2025 22:11:41] [I] Game over! Reached wave 2 with 1 players online on map 火岩前哨.
+[07-26-2025 22:12:02] [I] [32m重载成功: Enabled
+[07-26-2025 22:12:09] [I] Next Map is 世纪大战(ID:21094)
+[07-26-2025 22:12:09] [I] <zxs|x8f: /maps>
+[07-26-2025 22:12:12] [I] [33m单人快速投票换图([32m21025: [32m临北港口[33m|[32msurvival)成功
+[07-26-2025 22:12:12] [I] [33m异步加载地图中，请耐心等待
+[07-26-2025 22:12:28] [I] <zxs|x8f: /t>
+[07-26-2025 22:12:49] [I] [31m加载地图地图临北港口失败: Connection timed out: connect
+[07-26-2025 22:13:06] [I] zxs|x8f [AFiFzamvFBwAAAAA8ggWcA==] has skipped the wave.
+[07-26-2025 22:13:10] [I] <zxs|x8f: /maps>
+[07-26-2025 22:13:12] [I] [33m单人快速投票换图([32m21115: [32m新手成长图①[33m|[32mattack)成功
+[07-26-2025 22:13:12] [I] [33m异步加载地图中，请耐心等待
+[07-26-2025 22:13:13] [I] Game over! Reached wave 3 with 1 players online on map 赌徒.
+[07-26-2025 22:13:13] [I] Next Map is 脑叶公司 v.beta1 [33mHE (测试留档，请勿换图)(ID:21089)
+[07-26-2025 22:13:22] [I] [32m重载成功: Enabled
+[07-26-2025 22:13:34] [I] [32m重载成功: Enabled
+[07-26-2025 22:14:05] [I] [32m重载成功: Enabled
+[07-26-2025 22:14:14] [I] [31m加载地图地图脑叶公司 v.beta1 [33mHE (测试留档，请勿换图)失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[07-26-2025 22:14:19] [I] [32m换图成功,当前地图[33m新手成长图①[32m(id: 21115)
+[07-26-2025 22:14:35] [I] [32m重载成功: Enabled
+[07-26-2025 22:14:59] [I] [32m重载成功: Enabled
+[07-26-2025 22:15:10] [I] [32m重载成功: Enabled
+[07-26-2025 22:15:31] [I] [32m重载成功: Enabled
+[07-26-2025 22:15:38] [I] [32m重载成功: Enabled
+[07-26-2025 22:16:15] [I] [32m重载成功: Enabled
+[07-26-2025 22:16:53] [I] [32m重载成功: Enabled
+[07-26-2025 22:19:00] [I] [32m重载成功: Enabled
+[07-26-2025 22:19:42] [I] [32m重载成功: Enabled
+[07-26-2025 22:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-26-2025 22:20:29] [I] [32m重载成功: Enabled
+[07-26-2025 22:20:54] [I] [32m重载成功: Enabled
+[07-26-2025 22:20:59] [I] <zxs|x8f: /maps>
+[07-26-2025 22:21:18] [I] [33m单人快速投票换图([32m21042: [32m熔岩要塞-火山基地[33m|[32mattack)成功
+[07-26-2025 22:21:18] [I] [33m异步加载地图中，请耐心等待
+[07-26-2025 22:21:27] [I] [32m换图成功,当前地图[33m熔岩要塞-火山基地[32m(id: 21042)
+[07-26-2025 22:21:33] [I] <zxs|x8f: /t>
+[07-26-2025 22:21:46] [I] <zxs|x8f: /maps>
+[07-26-2025 22:21:56] [I] [31m距离上一玩家离开或上一投票成功不足1分钟,快速投票失败
+[07-26-2025 22:21:56] [I] [33m[37mzxs[37m|x8f[33m发起换图([32m21039: [32m围攻[33m|[32mattack)[33m投票
+[37m地图作者: unknown
+[37m地图简介: [NULL]
+[33m你可以在投票结束前使用文字投票，[32m赞成(y/1)[33m中立(.)[31m反对(n/0)投票
+[32m (若未投票,20秒后将弹窗提示)
+[07-26-2025 22:21:56] [I] [33m[37mzxs[37m|x8f[33m发起换图([32m21039: [32m围攻[33m|[32mattack)[33m投票成功. [32m1 [33m0 [31m0 0
+[07-26-2025 22:21:56] [I] [33m异步加载地图中，请耐心等待
+[07-26-2025 22:22:17] [I] 出怪强度: 0.1
+[07-26-2025 22:22:34] [I] [32m重载成功: Enabled
+[07-26-2025 22:22:35] [I] 出怪强度: 0.099999994
+[07-26-2025 22:22:52] [I] [31m加载地图地图围攻失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[07-26-2025 22:22:53] [I] [32m重载成功: Enabled
+[07-26-2025 22:22:54] [I] 出怪强度: 0.10714286
+[07-26-2025 22:23:11] [I] 出怪强度: 0.10714286
+[07-26-2025 22:23:23] [I] [32m重载成功: Enabled
+[07-26-2025 22:23:23] [I] 出怪强度: 1.0
+[07-26-2025 22:23:31] [I] [32m重载成功: Enabled
+[07-26-2025 22:23:32] [I] 出怪强度: 0.0
+[07-26-2025 22:23:38] [I] [32m重载成功: Enabled
+[07-26-2025 22:23:39] [I] 出怪强度: 0.21428572
+[07-26-2025 22:23:48] [I] zxs|x8f [AFiFzamvFBwAAAAA8ggWcA==] has skipped the wave.
+[07-26-2025 22:24:06] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-30-2025 21:55:23] [I] 4 mods loaded.
+[07-30-2025 21:55:47] [I] ===========================
+[07-30-2025 21:55:47] [I]      ScriptAgent @version@
+[07-30-2025 21:55:47] [I]            By WayZer    
+[07-30-2025 21:55:47] [I] 插件官网: https://git.io/SA4Mindustry
+[07-30-2025 21:55:47] [I] QQ交流群: 1033116078
+[07-30-2025 21:55:47] [I] 共找到103脚本,加载成功73,启用成功69,出错1
+[07-30-2025 21:55:47] [I] ===========================
+[07-30-2025 21:55:47] [I] Server loaded. Type 'help' for help.
+[07-30-2025 21:55:47] [I] [MindustryX] Hooks.init
+[07-30-2025 21:56:16] [W] Fetch releases fail from TinyLake/MindustryX: java.net.ConnectException: Connection timed out: no further information
+[07-30-2025 21:56:37] [W] Fetch releases fail from TinyLake/MindustryX-work: java.net.ConnectException: Connection timed out: no further information
+[07-30-2025 21:56:39] [I] Opened a server on port 6567.
+[07-30-2025 21:56:51] [I] zxs|x8f has connected. [AFiFzamvFBwAAAAA8ggWcA==]
+[07-30-2025 21:56:57] [I] <zxs|x8f: /t>
+[07-30-2025 21:57:06] [I] <zxs|x8f: /maps>
+[07-30-2025 21:57:16] [I] zxs|x8f [AFiFzamvFBwAAAAA8ggWcA==] has skipped the wave.
+[07-30-2025 21:57:36] [I] Game over! Reached wave 2 with 1 players online on map 火岩前哨.
+[07-30-2025 21:57:46] [I] [32m重载成功: Enabled
+[07-30-2025 21:57:47] [I] <zxs|x8f: /t>
+[07-30-2025 21:58:05] [I] zxs|x8f has disconnected. [AFiFzamvFBwAAAAA8ggWcA==] (closed)
+[07-30-2025 21:58:21] [I] Next Map is 火岩前哨(ID:1)
+[07-30-2025 22:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[07-30-2025 22:05:30] [I] Game over! Reached wave 2 with 0 players online on map 火岩前哨.
+[07-30-2025 22:05:33] [I] Next Map is nuclearProductionComplexRemake(ID:20976)
+[07-30-2025 22:07:40] [I] Game over! Reached wave 2 with 0 players online on map nuclearProductionComplexRemake.
+[07-30-2025 22:07:40] [I] Next Map is 一个防守(ID:21079)
+[07-30-2025 22:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[07-30-2025 22:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[07-30-2025 22:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[07-30-2025 22:31:18] [I] Game over! Reached wave 11 with 0 players online on map 一个防守.
+[07-30-2025 22:31:18] [I] Next Map is 多重防线-T10086(ID:21211)
+[07-30-2025 22:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[07-30-2025 22:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[07-30-2025 22:51:41] [I] Game over! Reached wave 2 with 0 players online on map 多重防线-T10086.
+[07-30-2025 22:51:41] [I] Next Map is 分割[35m战场1.4(ID:21120)
+[07-30-2025 22:52:01] [I] [31m加载地图地图分割[35m战场1.4失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[07-30-2025 22:52:03] [I] [31m加载地图地图焦油田tarfields失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[07-30-2025 22:52:07] [I] [31m加载地图地图[36m守 [34m<巷>失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:45:22] [I] 4 mods loaded.
+[08-12-2025 22:45:37] [I] ===========================
+[08-12-2025 22:45:37] [I]      ScriptAgent @version@
+[08-12-2025 22:45:37] [I]            By WayZer    
+[08-12-2025 22:45:37] [I] 插件官网: https://git.io/SA4Mindustry
+[08-12-2025 22:45:37] [I] QQ交流群: 1033116078
+[08-12-2025 22:45:37] [I] 共找到103脚本,加载成功73,启用成功69,出错1
+[08-12-2025 22:45:37] [I] ===========================
+[08-12-2025 22:45:37] [I] Server loaded. Type 'help' for help.
+[08-12-2025 22:45:37] [I] [MindustryX] Hooks.init
+[08-12-2025 22:45:49] [I] [31m加载地图地图派尔惹工厂失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:45:53] [I] [31m加载地图地图构舰厂（无火版失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:45:57] [I] [31m加载地图地图（V8）协同作战——循环圈失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:46:00] [I] [31m加载地图地图[31m冲击区0078Plus V2.0失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:46:03] [I] [31m加载地图地图[33m淘硅工厂失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:46:05] [I] [31m加载地图地图构舰厂（无火版失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:46:09] [I] [31m加载地图地图[31m冲击区0078Plus V2.0失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:46:12] [I] [31m加载地图地图几把猫生存6·宝石之国失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:46:15] [I] [31m加载地图地图[31m疯狂挖[33m废料V0.5失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:46:18] [I] [31m加载地图地图紧急授课失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:46:21] [I] Opened a server on port 6567.
+[08-12-2025 22:46:28] [I] [32m==== [37mHelp: * [32m ====
+[93m* ScriptAgent[91m(sa) [37m  [96mScriptAgent 控制指令[36m
+[93m* admin[91m [37m<add/remove> <username/ID...>  [96mMake an online user admin[36m
+[93m* admins[91m [37m  [96mList all admins.[36m
+[93m* ban[91m [37m<type-id/name/ip> <username/IP/ID...>  [96mBan a person.[36m
+[93m* banX[91m [37m<3位id> <时间|分钟> <原因>  [96m管理指令: 禁封[36m
+[93m* bans[91m [37m  [96mList all banned IPs and IDs.[36m
+[93m* config[91m [37m[name] [value...]  [96mConfigure server settings.[36m
+[93m* dosBanClear[91m [37m  [96m清理dosBan[36m
+[93m* exit[91m [37m  [96mExit the server application.[36m
+[93m* fillitems[91m [37m[team]  [96mFill the core with items.[36m
+[32m==== [37m1/6[32m ====
+[08-12-2025 22:46:32] [I] [32m==== [37mHelp: * [32m ====
+[93m* forceUpdate[91m [37m<url>  [96m强制更新服务器版本[36m
+[93m* gameover[91m [37m[winner]  [96m管理指令: 结束游戏[36m
+[93m* gc[91m [37m  [96mTrigger a garbage collection. Testing only.[36m
+[93m* help[91m(帮助) [37m[-v] [page=1]  [96m帮助指令[36m
+[93m* history[91m(历史) [37m[core(查询核心)]  [96m开关查询模式[36m
+[93m* host[91m [37m[mapId]  [96m管理指令: 换图[36m
+[93m* info[91m [37m<IP/UUID/name...>  [96mFind player info(s). Can optionally check for all names or IPs a player has had.[36m
+[93m* js[91m [37m  [96mUNSAFE: 在服务器运行js[36m
+[93m* kick[91m [37m<username...>  [96mKick a person by name.[36m
+[93m* load[91m [37m<slot>  [96m管理指令: 加载存档[36m
+[32m==== [37m2/6[32m ====
+[08-12-2025 22:46:48] [I] [32m==== [37mHelp: * [32m ====
+[93m* loadautosave[91m [37m  [96mLoads the last auto-save.[36m
+[93m* mapScriptLoad[91m [37m<script>  [96m测试: 加载指定地图脚本[36m
+[93m* maps[91m(地图) [37m[page/filter] [page]  [96m列出服务器地图[36m
+[93m* mod[91m [37m<name...>  [96mDisplay information about a loaded plugin.[36m
+[93m* mods[91m [37m  [96mDisplay all loaded mods.[36m
+[93m* nextmap[91m [37m<mapname...>  [96mSet the next map to be played after a game-over. Overrides shuffling.[36m
+[93m* pardon[91m [37m<ID>  [96mPardons a votekicked player by ID and allows them to join again.[36m
+[93m* pause[91m [37m<on/off>  [96mPause or unpause the game.[36m
+[93m* playerlimit[91m [37m[off/somenumber]  [96mSet the server player limit.[36m
+[93m* players[91m [37m  [96mList all players currently in game.[36m
+[32m==== [37m3/6[32m ====
+[08-12-2025 22:46:55] [I] [33m可用操作
+[35mconfig reload [95m重载配置文件
+[35mconfig list [页码] [95m列出配置项
+[35mconfig <配置项> [95m查看配置项介绍及当前值
+[35mconfig <配置项> set <value> [95m设置配置值
+[35mconfig <配置项> write [95m写入默认值到配置文件
+[35mconfig <配置项> reset [95m恢复默认值（从配置文件移除默认值）
+[08-12-2025 22:46:57] [I] [32m==== [37m配置项[32m ====
+[32mcoreLibrary.DBConnector.driver [34m驱动程序类名
+[32mcoreLibrary.DBConnector.driverMaven [34m驱动程序maven包
+[32mcoreLibrary.DBConnector.password [34m密码
+[32mcoreLibrary.DBConnector.preserveKeywordCasing [34m是否保留关键字大小写, 老用户请设置为false
+[32mcoreLibrary.DBConnector.url [34m数据库连接uri
+[32mcoreLibrary.DBConnector.user [34m用户名
+[32mcoreLibrary.commands.permissionCmd.debug [34m调试输出,如果开启,则会在后台打印权限请求
+[32mcoreLibrary.commands.permissionCmd.groups [34m权限设置
+[32mcoreLibrary.lang.console [34m控制台语言(不发给玩家的语句)
+[32mcoreLibrary.lang.fallbackMap [34m备用语言映射表,@raw表示内部语言,*代表所有未匹配
+[32mwayzer.cmds.mapsCmd.mapsPrePage [34m/maps每页显示数
+[32mwayzer.ext.alert.list [34m公告列表,支持颜色和变量
+[32mwayzer.ext.alert.time [34m公告间隔
+[32mwayzer.ext.alert.type [34m发送方式
+[32mwayzer.ext.autoUpdate.enableUpdate [34m是否开启自动更新
+[32m==== [37m1/3[32m ====
+[08-12-2025 22:46:59] [I] [32m==== [37m配置项[32m ====
+[32mcoreLibrary.DBConnector.driver [34m驱动程序类名
+[32mcoreLibrary.DBConnector.driverMaven [34m驱动程序maven包
+[32mcoreLibrary.DBConnector.password [34m密码
+[32mcoreLibrary.DBConnector.preserveKeywordCasing [34m是否保留关键字大小写, 老用户请设置为false
+[32mcoreLibrary.DBConnector.url [34m数据库连接uri
+[32mcoreLibrary.DBConnector.user [34m用户名
+[32mcoreLibrary.commands.permissionCmd.debug [34m调试输出,如果开启,则会在后台打印权限请求
+[32mcoreLibrary.commands.permissionCmd.groups [34m权限设置
+[32mcoreLibrary.lang.console [34m控制台语言(不发给玩家的语句)
+[32mcoreLibrary.lang.fallbackMap [34m备用语言映射表,@raw表示内部语言,*代表所有未匹配
+[32mwayzer.cmds.mapsCmd.mapsPrePage [34m/maps每页显示数
+[32mwayzer.ext.alert.list [34m公告列表,支持颜色和变量
+[32mwayzer.ext.alert.time [34m公告间隔
+[32mwayzer.ext.alert.type [34m发送方式
+[32mwayzer.ext.autoUpdate.enableUpdate [34m是否开启自动更新
+[32m==== [37m1/3[32m ====
+[08-12-2025 22:47:02] [I] [32m==== [37m配置项[32m ====
+[32mwayzer.ext.autoUpdate.mirror [34mGH镜像源
+[32mwayzer.ext.autoUpdate.onlyInNight [34m仅在凌晨自动更新
+[32mwayzer.ext.autoUpdate.source [34m服务端来源，Github仓库
+[32mwayzer.ext.autoUpdate.useMirror [34m使用镜像加速下载
+[32mwayzer.ext.goServer.servers [34m服务器传送列表
+[32mwayzer.ext.welcomeMsg.customWelcome [34m是否开启自定义进服信息(中文)
+[32mwayzer.ext.welcomeMsg.template [34m欢迎信息模板
+[32mwayzer.ext.welcomeMsg.type [34m发送方式
+[32mwayzer.map.autoHost.autoHostTime [34m自动Host的延迟时间,太短可能服务器未准备就绪
+[32mwayzer.map.pvpProtect.time [34mpvp保护时间(单位秒,小于等于0关闭)
+[32mwayzer.map.resourceHelper.webRoot [34mMindustry资源站Api
+[32mwayzer.maps.configEnableInternMaps [34m是否开启原版内置地图
+[32mwayzer.maps.configTempSaveSlot [34m临时缓存的存档格位
+[32mwayzer.maps.gameOverMsgType [34m游戏结束消息是显示方式
+[32mwayzer.maps.nextSameMode [34m自动换图是否选择相同模式地图,否则选择生存模式
+[32m==== [37m2/3[32m ====
+[08-12-2025 22:47:43] [I] [32m设置成功,当前:[33mwayzer.maps.configEnableInternMaps = true
+[08-12-2025 22:48:57] [I] Game over! Reached wave 1 with 0 players online on map 鲨鲨的奇妙冒险之旅.
+[08-12-2025 22:48:57] [I] Next Map is 一个防守（但是minihell双科出兵）v150(ID:21124)
+[08-12-2025 22:49:09] [I] [31m加载地图地图一个防守（但是minihell双科出兵）v150失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:49:12] [I] [31m加载地图地图山        谷（nh魔改版）失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:49:15] [E] mindustry.io.SaveIO$SaveException: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveIO.load(SaveIO.java:175)
+	at mindustry.io.SaveIO.load(SaveIO.java:150)
+	at mindustry.core.World.loadMap(World.java:355)
+	at mindustry.core.World.loadMap(World.java:344)
+	at wayzer.MapProvider.loadMap$suspendImpl(maps.registry.kt:50)
+	at wayzer.MapProvider.loadMap(maps.registry.kt)
+	at wayzer.MapManager.loadMapSync(maps.manager.kt:112)
+	at wayzer.MapManager$loadMapSync$2.invokeSuspend(maps.manager.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at arc.util.TaskQueue.run(TaskQueue.java:17)
+	at arc.backend.headless.HeadlessApplication.mainLoop(HeadlessApplication.java:81)
+	at arc.backend.headless.HeadlessApplication$1.run(HeadlessApplication.java:52)
+Caused by: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:98)
+	at mindustry.io.SaveVersion.read(SaveVersion.java:76)
+	at mindustry.io.SaveIO.load(SaveIO.java:172)
+	... 12 more
+Caused by: java.io.IOException: Could not skip bytes. Expected length: 51913; Actual length: 11441
+	at mindustry.io.SaveFileReader.skipChunk(SaveFileReader.java:177)
+	at mindustry.io.SaveVersion.readMap(SaveVersion.java:343)
+	at mindustry.io.SaveVersion.lambda$read$1(SaveVersion.java:76)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:164)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:157)
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:96)
+	... 14 more
+
+[08-12-2025 22:49:15] [E] mindustry.io.SaveIO$SaveException: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveIO.load(SaveIO.java:157)
+	at mindustry.core.World.loadMap(World.java:355)
+	at mindustry.core.World.loadMap(World.java:344)
+	at wayzer.MapProvider.loadMap$suspendImpl(maps.registry.kt:50)
+	at wayzer.MapProvider.loadMap(maps.registry.kt)
+	at wayzer.MapManager.loadMapSync(maps.manager.kt:112)
+	at wayzer.MapManager$loadMapSync$2.invokeSuspend(maps.manager.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at arc.util.TaskQueue.run(TaskQueue.java:17)
+	at arc.backend.headless.HeadlessApplication.mainLoop(HeadlessApplication.java:81)
+	at arc.backend.headless.HeadlessApplication$1.run(HeadlessApplication.java:52)
+Caused by: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:98)
+	at mindustry.io.SaveVersion.read(SaveVersion.java:76)
+	at mindustry.io.SaveIO.load(SaveIO.java:172)
+	at mindustry.io.SaveIO.load(SaveIO.java:150)
+	... 11 more
+Caused by: java.io.IOException: Could not skip bytes. Expected length: 51913; Actual length: 11441
+	at mindustry.io.SaveFileReader.skipChunk(SaveFileReader.java:177)
+	at mindustry.io.SaveVersion.readMap(SaveVersion.java:343)
+	at mindustry.io.SaveVersion.lambda$read$1(SaveVersion.java:76)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:164)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:157)
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:96)
+	... 14 more
+
+[08-12-2025 22:49:30] [I] [32m==== [37m服务器地图 By WayZer[32m ====
+[31m001  [32mAncient Caldera[34m | survival
+[31m002  [32mArchipelago[34m | survival
+[31m003  [32mDebris Field[34m | survival
+[31m004  [32mDomain[34m | survival
+[31m005  [32mFork[34m | survival
+[31m006  [32mFortress[34m | survival
+[31m007  [32mGlacier[34m | survival
+[31m008  [32mIslands[34m | survival
+[31m009  [32mLabyrinth[34m | survival
+[32m==== [37m1/14[32m ====
+[08-12-2025 22:49:34] [I] [32m强制换图为MapInfo(name='天行群岛防卫战', author='unknown', mode=生存, id=21364, provider=wayzer.map.ResourceHelper$1@602e551f)
+[08-12-2025 22:49:37] [I] [31m加载地图地图天行群岛防卫战失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:49:39] [I] [32m强制换图为MapInfo(name='Ancient Caldera', author='Anuke', mode=生存, id=1, provider=wayzer.Maps$1@6d375301)
+[08-12-2025 22:49:39] [I] [31m加载地图地图几把猫生存·1失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:49:42] [I] [31m加载地图地图[31m疯狂挖[33m废料V0.5失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:49:46] [I] [31m加载地图地图镇守失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:49:48] [I] [31m加载地图地图原创地图-[八军交汇]失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-12-2025 22:49:49] [I] [32m强制换图为MapInfo(name='Ancient Caldera', author='Anuke', mode=生存, id=1, provider=wayzer.Maps$1@6d375301)
+[08-12-2025 22:49:50] [E] mindustry.io.SaveIO$SaveException: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveIO.load(SaveIO.java:175)
+	at mindustry.io.SaveIO.load(SaveIO.java:150)
+	at mindustry.core.World.loadMap(World.java:355)
+	at mindustry.core.World.loadMap(World.java:344)
+	at wayzer.MapProvider.loadMap$suspendImpl(maps.registry.kt:50)
+	at wayzer.MapProvider.loadMap(maps.registry.kt)
+	at wayzer.MapManager.loadMapSync(maps.manager.kt:112)
+	at wayzer.MapManager$loadMapSync$2.invokeSuspend(maps.manager.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at arc.util.TaskQueue.run(TaskQueue.java:17)
+	at arc.backend.headless.HeadlessApplication.mainLoop(HeadlessApplication.java:81)
+	at arc.backend.headless.HeadlessApplication$1.run(HeadlessApplication.java:52)
+Caused by: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:98)
+	at mindustry.io.SaveVersion.read(SaveVersion.java:76)
+	at mindustry.io.SaveIO.load(SaveIO.java:172)
+	... 12 more
+Caused by: java.io.IOException: Could not skip bytes. Expected length: 51913; Actual length: 11441
+	at mindustry.io.SaveFileReader.skipChunk(SaveFileReader.java:177)
+	at mindustry.io.SaveVersion.readMap(SaveVersion.java:343)
+	at mindustry.io.SaveVersion.lambda$read$1(SaveVersion.java:76)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:164)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:157)
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:96)
+	... 14 more
+
+[08-12-2025 22:49:50] [E] mindustry.io.SaveIO$SaveException: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveIO.load(SaveIO.java:157)
+	at mindustry.core.World.loadMap(World.java:355)
+	at mindustry.core.World.loadMap(World.java:344)
+	at wayzer.MapProvider.loadMap$suspendImpl(maps.registry.kt:50)
+	at wayzer.MapProvider.loadMap(maps.registry.kt)
+	at wayzer.MapManager.loadMapSync(maps.manager.kt:112)
+	at wayzer.MapManager$loadMapSync$2.invokeSuspend(maps.manager.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at arc.util.TaskQueue.run(TaskQueue.java:17)
+	at arc.backend.headless.HeadlessApplication.mainLoop(HeadlessApplication.java:81)
+	at arc.backend.headless.HeadlessApplication$1.run(HeadlessApplication.java:52)
+Caused by: java.io.IOException: Error reading region "map".
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:98)
+	at mindustry.io.SaveVersion.read(SaveVersion.java:76)
+	at mindustry.io.SaveIO.load(SaveIO.java:172)
+	at mindustry.io.SaveIO.load(SaveIO.java:150)
+	... 11 more
+Caused by: java.io.IOException: Could not skip bytes. Expected length: 51913; Actual length: 11441
+	at mindustry.io.SaveFileReader.skipChunk(SaveFileReader.java:177)
+	at mindustry.io.SaveVersion.readMap(SaveVersion.java:343)
+	at mindustry.io.SaveVersion.lambda$read$1(SaveVersion.java:76)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:164)
+	at mindustry.io.SaveFileReader.readChunk(SaveFileReader.java:157)
+	at mindustry.io.SaveFileReader.region(SaveFileReader.java:96)
+	... 14 more
+
+[08-12-2025 22:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[08-12-2025 22:50:03] [I] [32m服务器状态
+   [32m地图: [ [33m21233 [32m][33m天明岭[32m 模式: [33msurvival [32m波数[33m1
+   [32m61 TPS, 196 MB used, UPTIME 4m 45.156255500s
+   [32m总单位数: 0 玩家数: 0
+   [33m被禁封总数: 0
+[08-12-2025 22:50:17] [I] [32m重载成功: Enabled
+[08-12-2025 22:51:26] [I] [32m重载成功: Enabled
+[08-12-2025 22:52:19] [I] [32m重载成功: Enabled
+[08-12-2025 22:54:42] [I] [32m重载成功: Enabled
+[08-12-2025 22:55:22] [I] [32m重载成功: Enabled
+[08-12-2025 22:55:54] [I] [32m重载成功: Enabled
+[08-13-2025 21:48:11] [I] 4 mods loaded.
+[08-13-2025 21:48:29] [I] ===========================
+[08-13-2025 21:48:29] [I]      ScriptAgent @version@
+[08-13-2025 21:48:29] [I]            By WayZer    
+[08-13-2025 21:48:29] [I] 插件官网: https://git.io/SA4Mindustry
+[08-13-2025 21:48:29] [I] QQ交流群: 1033116078
+[08-13-2025 21:48:29] [I] 共找到103脚本,加载成功73,启用成功69,出错1
+[08-13-2025 21:48:29] [I] ===========================
+[08-13-2025 21:48:29] [I] Server loaded. Type 'help' for help.
+[08-13-2025 21:48:29] [I] [MindustryX] Hooks.init
+[08-13-2025 21:48:46] [I] Opened a server on port 6567.
+[08-13-2025 21:49:44] [I] [32m重载成功: Enabled
+[08-13-2025 21:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[08-13-2025 22:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[08-13-2025 22:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[08-13-2025 22:17:13] [I] [32m重载成功: Enabled
+[08-13-2025 22:18:10] [I] [32m重载成功: Enabled
+[08-13-2025 22:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[08-13-2025 22:20:48] [I] [31m无效指令"sa",请使用 * sa help 查询
+[08-13-2025 22:21:02] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: level (info.kts:5:13)
+[08-13-2025 22:21:33] [I] [31m加载失败(ToLoad): 加载失败: Fail to load dependency plugins/user/level for  (info.kts)
+[08-13-2025 22:21:44] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: level (info.kts:6:13)
+[08-13-2025 22:23:20] [I] [31m加载失败(ToLoad): 加载失败: Fail to load dependency plugins/user/level/Level for  (userSql.kts)
+[08-13-2025 22:23:26] [I] [32m扫描完成,新发现1脚本
+[08-13-2025 22:23:36] [I] [32m重载成功: Enabled
+[08-13-2025 22:23:45] [I] [32m重载成功: Enabled
+[08-13-2025 22:23:49] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: Levels (userSql.kts:159:29)
+[08-13-2025 22:24:23] [I] [32m重载成功: Enabled
+[08-13-2025 22:24:47] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: wayzer (info.kts:11:8)
+[08-13-2025 22:24:59] [I] [32m重载成功: Enabled
+[08-13-2025 22:28:24] [I] [32m重载成功: Enabled
+[08-13-2025 22:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[08-19-2025 21:22:04] [I] 4 mods loaded.
+[08-19-2025 21:22:15] [I] ===========================
+[08-19-2025 21:22:15] [I]      ScriptAgent @version@
+[08-19-2025 21:22:15] [I]            By WayZer    
+[08-19-2025 21:22:15] [I] 插件官网: https://git.io/SA4Mindustry
+[08-19-2025 21:22:15] [I] QQ交流群: 1033116078
+[08-19-2025 21:22:15] [I] 共找到104脚本,加载成功74,启用成功70,出错1
+[08-19-2025 21:22:15] [I] ===========================
+[08-19-2025 21:22:15] [I] Server loaded. Type 'help' for help.
+[08-19-2025 21:22:15] [I] [MindustryX] Hooks.init
+[08-19-2025 21:22:36] [I] Opened a server on port 6567.
+[08-19-2025 21:23:18] [I] [32m==== [37mHelp: * sa [32m ====
+[93m* sa config[91m [37m[help/arg...]  [96m查看或修改配置[36m
+[93m* sa disable[91m(关闭) [37m<module[/script]> [--async]  [96m关闭一个脚本或者模块[36m
+[93m* sa enable[91m(启用) [37m<module[/script]> [--async]  [96m(重新)启用一个脚本或者模块[36m
+[93m* sa genMetadata[91m [37m  [96m生成供开发使用的元数据[36m
+[93m* sa help[91m(帮助) [37m[-v] [page=1]  [96m帮助指令[36m
+[93m* sa hotReload[91m [37m  [96m开关脚本自动热重载[36m
+[93m* sa lang[91m [37m  [96m多语言功能[36m
+[93m* sa list[91m(ls, 列出) [37m[module/fail]  [96m列出所有模块或模块内所有脚本[36m
+[93m* sa load[91m(reload, 加载, 重载) [37m<module[/script]> [--noCache] [--noEnable] [--async]  [96m(重新)加载一个脚本或者模块[36m
+[93m* sa mirai[91m [37m[args...]  [96m重定向输入到mirai[36m
+[32m==== [37m1/2[32m ====
+[08-19-2025 21:23:24] [I] [33m模块bootStrap: 1
+[08-19-2025 21:23:24] [I] [33m模块coreLibrary: 13
+[08-19-2025 21:23:24] [I] [33m模块coreMindustry: 9
+[08-19-2025 21:23:24] [I] [33m模块mapScript: 4
+[08-19-2025 21:23:24] [I] [33m模块mirai: 2
+[08-19-2025 21:23:24] [I] [33m模块plugins: 8
+[08-19-2025 21:23:24] [I] [33m模块wayzer: 37
+[08-19-2025 21:23:24] [I] [32m生成完成
+[08-19-2025 21:28:40] [I] Game over! Reached wave 3 with 0 players online on map Labyrinth.
+[08-19-2025 21:28:54] [I] Next Map is Wasteland(ID:18)
+[08-19-2025 21:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[08-19-2025 21:30:58] [I] [31m参数错误: * sa reload  <module[/script]> [--noCache] [--noEnable] [--async]
+[08-19-2025 21:31:03] [I] [32m重载成功: Enabled
+[08-19-2025 21:31:08] [I] [33m==== [93mfail脚本[33m ====
+[0m[ToEnable] wayzer/reGrief/limitFire       java.lang.NoSuchFieldException: map
+[08-19-2025 21:31:10] [I] [32m扫描完成,新发现0脚本
+[08-19-2025 21:31:42] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:32:53] [I] [31m加载失败(ToLoad): 加载失败: Expecting member declaration (userSql.kts:156:1)
+[08-19-2025 21:33:19] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:33:37] [I] [32m重载成功: Enabled
+[08-19-2025 21:35:46] [I] Game over! Reached wave 3 with 0 players online on map Wasteland.
+[08-19-2025 21:35:57] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:35:58] [I] Next Map is Ancient Caldera(ID:1)
+[08-19-2025 21:36:01] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:36:37] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:39:17] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:39:35] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:39:43] [I] [32m重载成功: Enabled
+[08-19-2025 21:39:46] [I] [32m重载成功: Enabled
+[08-19-2025 21:39:50] [I] [32m重载成功: Enabled
+[08-19-2025 21:39:54] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:39:57] [I] [32m重载成功: Enabled
+[08-19-2025 21:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[08-19-2025 21:40:44] [I] [32m重载成功: Enabled
+[08-19-2025 21:40:50] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:40:57] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:41:15] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:41:22] [I] [31m加载失败(ToLoad): 加载失败: Object UserTools captures the script class instance. Try to use class or anonymous object instead (userSql.kts:29:1)
+[08-19-2025 21:41:29] [I] Game over! Reached wave 2 with 0 players online on map Ancient Caldera.
+[08-19-2025 21:41:33] [I] Next Map is [31m终极视力测试-L[32mIMBO NERF(ID:21382)
+[08-19-2025 21:41:52] [I] [31m加载地图地图[31m终极视力测试-L[32mIMBO NERF失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-19-2025 21:42:07] [I] [32m重载成功: Enabled
+[08-19-2025 21:42:12] [I] [32m重载成功: Enabled
+[08-19-2025 21:42:15] [I] [32m重载成功: Enabled
+[08-19-2025 21:42:24] [I] [32m重载成功: Enabled
+[08-19-2025 21:45:46] [I] [32m重载成功: Enabled
+[08-19-2025 21:46:16] [I] [32m重载成功: Enabled
+[08-19-2025 21:46:36] [I] [32m重载成功: Enabled
+[08-19-2025 21:47:28] [I] Game over! Reached wave 2 with 0 players online on map Tendrils.
+[08-19-2025 21:47:28] [I] Next Map is 循环圈塔防(ID:21102)
+[08-19-2025 21:47:43] [I] [32m重载成功: Enabled
+[08-19-2025 21:47:52] [I] [31m加载地图地图循环圈塔防失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-19-2025 21:48:52] [I] [32m重载成功: Enabled
+[08-19-2025 21:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[08-19-2025 21:50:08] [I] [32m重载成功: Enabled
+[08-19-2025 21:51:12] [I] [32m重载成功: Enabled
+[08-19-2025 21:52:27] [I] [32m重载成功: Enabled
+[08-19-2025 21:52:54] [I] [32m重载成功: Enabled
+[08-19-2025 21:53:18] [I] [32m重载成功: Enabled
+[08-19-2025 21:53:40] [I] [32m重载成功: Enabled
+[08-19-2025 21:53:59] [I] 4 mods loaded.
+[08-19-2025 21:54:02] [I] ===========================
+[08-19-2025 21:54:02] [I]      ScriptAgent @version@
+[08-19-2025 21:54:02] [I]            By WayZer    
+[08-19-2025 21:54:02] [I] 插件官网: https://git.io/SA4Mindustry
+[08-19-2025 21:54:02] [I] QQ交流群: 1033116078
+[08-19-2025 21:54:02] [I] 共找到104脚本,加载成功74,启用成功70,出错1
+[08-19-2025 21:54:02] [I] ===========================
+[08-19-2025 21:54:02] [I] Server loaded. Type 'help' for help.
+[08-19-2025 21:54:02] [I] [MindustryX] Hooks.init
+[08-19-2025 21:54:25] [I] [31m加载地图地图[MISSION:ARC]ExI.洪水失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-19-2025 21:54:30] [I] [31m加载地图地图[31m终极视力测试-L[32mIM[32mBO失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-19-2025 21:54:33] [I] [31m加载地图地图[34m西沙群岛失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-19-2025 21:54:53] [I] [31m加载地图地图c4失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-19-2025 21:54:57] [I] [32m重载成功: Enabled
+[08-19-2025 21:54:58] [I] [31m加载地图地图c4失败: Cannot invoke "mindustry.io.SaveVersion.region(String, java.io.DataInput, arc.util.io.CounterInputStream, mindustry.io.SaveFileReader$IORunner)" because "ver" is null
+[08-19-2025 21:54:59] [I] Opened a server on port 6567.
+[08-19-2025 21:56:12] [I] [32m重载成功: Enabled
+[08-19-2025 21:56:26] [I] [32m重载成功: Enabled
+[08-19-2025 21:56:37] [I] [32m重载成功: Enabled
+[08-19-2025 21:56:54] [I] [32m重载成功: Enabled
+[08-19-2025 21:57:00] [I] [32m重载成功: Enabled
+[08-19-2025 21:57:15] [I] Shutting down server.
+[10-18-2025 09:13:19] [I] 3 mods loaded.
+[10-18-2025 09:13:24] [I] ===========================
+[10-18-2025 09:13:24] [I]      ScriptAgent @version@
+[10-18-2025 09:13:24] [I]            By WayZer    
+[10-18-2025 09:13:24] [I] 插件官网: https://git.io/SA4Mindustry
+[10-18-2025 09:13:24] [I] QQ交流群: 1033116078
+[10-18-2025 09:13:24] [I] 共找到104脚本,加载成功74,启用成功70,出错1
+[10-18-2025 09:13:24] [I] ===========================
+[10-18-2025 09:13:24] [I] Server loaded. Type 'help' for help.
+[10-18-2025 09:13:24] [I] [MindustryX] Hooks.init
+[10-18-2025 09:13:38] [I] Opened a server on port 6567.
+[10-18-2025 09:14:27] [I] Shutting down server.
+[10-18-2025 18:02:28] [I] 4 mods loaded.
+[10-18-2025 18:02:41] [I] ===========================
+[10-18-2025 18:02:41] [I]      ScriptAgent @version@
+[10-18-2025 18:02:41] [I]            By WayZer    
+[10-18-2025 18:02:41] [I] 插件官网: https://git.io/SA4Mindustry
+[10-18-2025 18:02:41] [I] QQ交流群: 1033116078
+[10-18-2025 18:02:41] [I] 共找到104脚本,加载成功74,启用成功70,出错1
+[10-18-2025 18:02:41] [I] ===========================
+[10-18-2025 18:02:41] [I] Server loaded. Type 'help' for help.
+[10-18-2025 18:02:41] [I] [MindustryX] Hooks.init
+[10-18-2025 18:02:48] [I] Mods:
+[10-18-2025 18:02:48] [I]   [内置]Kotlin语言标准库 1.9.20 
+[10-18-2025 18:02:48] [I]   [内置]MindustryX 2025.10.X20 
+[10-18-2025 18:02:48] [I]   ScriptAgent4Mindustry @version@ 
+[10-18-2025 18:02:48] [I]   Saturation firepower 3.2.4.1 
+[10-18-2025 18:02:48] [I] Mod directory: C:\Users\48825\Desktop\Mindustry\SF2 SERVER\config\mods
+[10-18-2025 18:02:50] [I] Opened a server on port 6567.
+[10-18-2025 18:02:55] [I] Shutting down server.
+[01-24-2026 14:58:00] [I] 4 mods loaded.
+[01-24-2026 14:58:11] [I] ===========================
+[01-24-2026 14:58:11] [I]      ScriptAgent @version@
+[01-24-2026 14:58:11] [I]            By WayZer    
+[01-24-2026 14:58:11] [I] 插件官网: https://git.io/SA4Mindustry
+[01-24-2026 14:58:11] [I] QQ交流群: 1033116078
+[01-24-2026 14:58:11] [I] 共找到104脚本,加载成功74,启用成功70,出错1
+[01-24-2026 14:58:11] [I] ===========================
+[01-24-2026 14:58:11] [I] Server loaded. Type 'help' for help.
+[01-24-2026 14:58:11] [I] [MindustryX] Hooks.init
+[01-24-2026 14:58:24] [I] [31m加载地图地图Me战争 章12-大战役失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-24-2026 14:58:29] [I] Opened a server on port 6567.
+[01-30-2026 20:39:09] [I] 4 mods loaded.
+[01-30-2026 20:39:40] [I] ===========================
+[01-30-2026 20:39:40] [I]      ScriptAgent @version@
+[01-30-2026 20:39:40] [I]            By WayZer    
+[01-30-2026 20:39:40] [I] 插件官网: https://git.io/SA4Mindustry
+[01-30-2026 20:39:40] [I] QQ交流群: 1033116078
+[01-30-2026 20:39:40] [I] 共找到105脚本,加载成功75,启用成功71,出错1
+[01-30-2026 20:39:40] [I] ===========================
+[01-30-2026 20:39:40] [I] Server loaded. Type 'help' for help.
+[01-30-2026 20:39:40] [I] [MindustryX] Hooks.init
+[01-30-2026 20:40:09] [I] [31m加载地图地图群岛防御失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-30-2026 20:40:10] [I] Opened a server on port 6567.
+[01-30-2026 20:50:01] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[01-30-2026 20:53:24] [I] 5 mods loaded.
+[01-30-2026 20:53:44] [I] ===========================
+[01-30-2026 20:53:44] [I]      ScriptAgent @version@
+[01-30-2026 20:53:44] [I]            By WayZer    
+[01-30-2026 20:53:44] [I] 插件官网: https://git.io/SA4Mindustry
+[01-30-2026 20:53:44] [I] QQ交流群: 1033116078
+[01-30-2026 20:53:44] [I] 共找到105脚本,加载成功74,启用成功70,出错2
+[01-30-2026 20:53:44] [I] ===========================
+[01-30-2026 20:53:44] [I] Server loaded. Type 'help' for help.
+[01-30-2026 20:53:44] [I] [MindustryX] Hooks.init
+[01-30-2026 20:53:56] [I] [31m加载地图地图自然地形失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-30-2026 20:53:59] [I] [31m加载地图地图[33m质驱[37m•光辉[37m之路失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-30-2026 20:54:01] [I] Opened a server on port 6567.
+[01-30-2026 20:55:46] [I] Game over! Reached wave 1 with 0 players online on map 风沙谷.
+[01-30-2026 20:55:46] [I] Next Map is 断层带(ID:22)
+[01-30-2026 20:59:48] [I] Kicking connection 26.200.62.3 / AAAAAAAA; Reason: [accent]Incompatible mods![]  Missing:[lightgray] > 饱和火力:3.2.4.1[] Unnecessary mods:[lightgray] > 饱和火力:3.2.4
+[01-30-2026 21:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[01-30-2026 21:00:30] [I] Kicking connection 26.200.62.3 / AAAAAAAA; Reason: [accent]Incompatible mods![]  Missing:[lightgray] > 饱和火力:3.2.4.1[] 
+[01-30-2026 21:00:53] [I] 4 mods loaded.
+[01-30-2026 21:01:12] [I] ===========================
+[01-30-2026 21:01:12] [I]      ScriptAgent @version@
+[01-30-2026 21:01:12] [I]            By WayZer    
+[01-30-2026 21:01:12] [I] 插件官网: https://git.io/SA4Mindustry
+[01-30-2026 21:01:12] [I] QQ交流群: 1033116078
+[01-30-2026 21:01:12] [I] 共找到105脚本,加载成功74,启用成功70,出错2
+[01-30-2026 21:01:12] [I] ===========================
+[01-30-2026 21:01:12] [I] Server loaded. Type 'help' for help.
+[01-30-2026 21:01:12] [I] [MindustryX] Hooks.init
+[01-30-2026 21:01:28] [I] Opened a server on port 6567.
+[01-30-2026 21:01:32] [I] zx|cbZ has connected. [rejClX71PxYAAAAAtQYrYg==]
+[01-30-2026 21:01:32] [I] Kicking connection 26.200.62.3 / rejClX71PxYAAAAAtQYrYg==; Reason: [red]您未绑定QQ,请在QQ群中发送 “/绑定 352306”绑定账号
+[01-30-2026 21:01:32] [I] zx|cbZ has disconnected. [rejClX71PxYAAAAAtQYrYg==] (disappeared)
+[01-30-2026 21:01:56] [I] zx|cbZ has connected. [rejClX71PxYAAAAAtQYrYg==]
+[01-30-2026 21:02:00] [I] <zx|cbZ: /menu>
+[01-30-2026 21:02:03] [I] <zx|cbZX: /help>
+[01-30-2026 21:02:24] [I] [33m==== [93mfail脚本[33m ====
+[0m[ToLoad] plugins/user/sign              加载失败: Unresolved reference: MenuV2 (sign.kts:1:22)
+[0m[ToEnable] wayzer/reGrief/limitFire       java.lang.NoSuchFieldException: map
+[01-30-2026 21:02:55] [I] [32m扫描完成,新发现0脚本
+[01-30-2026 21:03:01] [I] [31m加载失败(ToLoad): 加载失败: Fail to load dependency mirai/send for  (module.kts)
+[01-30-2026 21:03:27] [I] [31m加载失败(ToLoad): 加载失败: Fail to load dependency mirai/send for  (module.kts)
+[01-30-2026 21:03:37] [I] [31m加载失败(ToLoad): 加载失败: Fail to load dependency mirai/send for  (module.kts)
+[01-30-2026 21:03:39] [I] [32m扫描完成,新发现0脚本
+[01-30-2026 21:03:40] [I] [31m加载失败(ToLoad): 加载失败: Fail to load dependency mirai/send for  (module.kts)
+[01-30-2026 21:04:09] [I] [31m加载失败(ToLoad): 加载失败: Fail to load dependency mirai/send for  (module.kts)
+[01-30-2026 21:19:26] [I] 4 mods loaded.
+[01-30-2026 21:19:32] [I] ===========================
+[01-30-2026 21:19:32] [I]      ScriptAgent @version@
+[01-30-2026 21:19:32] [I]            By WayZer    
+[01-30-2026 21:19:32] [I] 插件官网: https://git.io/SA4Mindustry
+[01-30-2026 21:19:32] [I] QQ交流群: 1033116078
+[01-30-2026 21:19:32] [I] 共找到105脚本,加载成功74,启用成功70,出错2
+[01-30-2026 21:19:32] [I] ===========================
+[01-30-2026 21:19:32] [I] Server loaded. Type 'help' for help.
+[01-30-2026 21:19:32] [I] [MindustryX] Hooks.init
+[01-30-2026 21:19:47] [I] Opened a server on port 6567.
+[01-30-2026 21:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[01-30-2026 21:21:05] [I] zx|cbZ has connected. [rejClX71PxYAAAAAtQYrYg==]
+[01-30-2026 21:21:13] [I] [33m==== [93mfailo脚本[33m ====
+
+[01-30-2026 21:21:15] [I] [33m==== [93mfail脚本[33m ====
+[0m[ToLoad] plugins/user/sign              加载失败: Unresolved reference: MenuV2 (sign.kts:1:22)
+[0m[ToEnable] wayzer/reGrief/limitFire       java.lang.NoSuchFieldException: map
+[01-30-2026 21:21:36] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: MenuV2 (sign.kts:2:22)
+[01-30-2026 21:22:01] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: Item (sign.kts:3:26)
+[01-30-2026 21:22:24] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: Item (sign.kts:4:5)
+[01-30-2026 21:26:15] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: Pain (sign.kts:3:22)
+[01-30-2026 21:26:50] [I] [31m加载失败(ToLoad): 加载失败: Type mismatch: inferred type is Player? but Player was expected (sign.kts:5:12)
+[01-30-2026 21:27:07] [I] [32m重载成功: Enabled
+[01-30-2026 21:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[01-30-2026 21:32:29] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: renderPaged (sign.kts:6:9)
+[01-30-2026 21:33:03] [I] [31m加载失败(ToLoad): 加载失败: Not enough information to infer type variable T (sign.kts:6:9)
+[01-30-2026 21:34:39] [I] [31m加载失败(ToLoad): 加载失败: Expecting '(' to open a loop range (sign.kts:6:12)
+[01-30-2026 21:35:06] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+private fun MatchResult.range(): IntRange defined in kotlin.text
+private fun MatchResult.range(groupIndex: Int): IntRange defined in kotlin.text (sign.kts:6:19)
+[01-30-2026 21:36:46] [I] Game over! Reached wave 2 with 1 players online on map 无水之地.
+[01-30-2026 21:36:46] [I] Next Map is 临北港口(ID:21025)
+[01-30-2026 21:36:58] [I] [32m重载成功: Enabled
+[01-30-2026 21:37:02] [I] [31m加载地图地图临北港口失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-30-2026 21:37:09] [I] <zx|cbZX: /sign>
+[01-30-2026 21:37:37] [I] [32m重载成功: Enabled
+[01-30-2026 21:37:38] [I] <zx|cbZX: /sign>
+[01-30-2026 21:37:45] [I] <zx|cbZX: /sign>
+[01-30-2026 21:38:17] [I] <zx|cbZX: /sign>
+[01-30-2026 21:39:21] [I] [32m重载成功: Enabled
+[01-30-2026 21:39:24] [I] <zx|cbZX: /sign>
+[01-30-2026 21:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[01-30-2026 21:48:17] [I] <zx|cbZX: />
+[01-30-2026 21:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[01-30-2026 21:51:29] [I] [31m加载失败(ToLoad): 加载失败: Unexpected tokens (use ';' to separate expressions on the same line) (sign.kts:8:89)
+[01-30-2026 21:51:37] [I] [31m加载失败(ToLoad): 加载失败: Type mismatch: inferred type is String! but Int was expected (sign.kts:5:14)
+[01-30-2026 21:51:39] [I] [31m加载失败(ToLoad): 加载失败: Type mismatch: inferred type is String! but Int was expected (sign.kts:5:14)
+[01-30-2026 21:52:05] [I] [31m加载失败(ToLoad): 加载失败: Type mismatch: inferred type is String! but Int was expected (sign.kts:5:14)
+[01-30-2026 21:52:53] [I] [31m加载失败(ToLoad): 加载失败: Expecting a '>' (sign.kts:3:28)
+[01-30-2026 21:54:39] [I] [31m加载失败(ToLoad): 加载失败: Type mismatch: inferred type is MutableList<???> but MutableMap<String, Pair<MutableList<Int>, Boolean>> was expected (sign.kts:3:64)
+[01-30-2026 21:54:46] [I] [31m加载失败(ToLoad): 加载失败: Function invocation 'first(...)' expected (sign.kts:8:57)
+[01-30-2026 21:55:00] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: contain (sign.kts:8:56)
+[01-30-2026 21:55:35] [I] [32m重载成功: Enabled
+[01-30-2026 21:55:39] [I] <zx|cbZX: /sign>
+[01-30-2026 21:56:00] [I] [32m重载成功: Enabled
+[01-30-2026 21:56:01] [I] <zx|cbZX: /sign>
+[01-30-2026 21:56:09] [I] [31m加载失败(ToLoad): 加载失败: Expecting ') (sign.kts:8:67)
+[01-30-2026 21:56:10] [I] <zx|cbZX: /sign>
+[01-30-2026 21:56:23] [I] [32m重载成功: Enabled
+[01-30-2026 21:56:25] [I] <zx|cbZX: /sign>
+[01-30-2026 21:57:02] [I] [32m重载成功: Enabled
+[01-30-2026 21:57:04] [I] <zx|cbZX: /sign>
+[01-30-2026 21:57:05] [I] <zx|cbZX: /sign>
+[01-30-2026 21:57:07] [I] <zx|cbZX: /sign>
+[01-30-2026 21:57:08] [I] <zx|cbZX: /sign>
+[01-30-2026 21:57:10] [I] <zx|cbZX: /sign>
+[01-30-2026 21:57:59] [I] [32m重载成功: Enabled
+[01-30-2026 21:58:01] [I] <zx|cbZX: /sign>
+[01-30-2026 21:58:03] [I] <zx|cbZX: /sign>
+[01-30-2026 21:58:04] [I] <zx|cbZX: /sign>
+[01-30-2026 22:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[01-30-2026 22:02:55] [I] <zx|cbZX: /sign>
+[01-30-2026 22:03:00] [I] [32m重载成功: Enabled
+[01-30-2026 22:03:03] [I] <zx|cbZX: /sign>
+[01-30-2026 22:03:04] [I] <zx|cbZX: /sign>
+[01-30-2026 22:03:05] [I] <zx|cbZX: /sign>
+[01-30-2026 22:03:06] [I] <zx|cbZX: /sign>
+[01-30-2026 22:03:07] [I] <zx|cbZX: /sign>
+[01-30-2026 22:03:08] [I] <zx|cbZX: /sign>
+[01-30-2026 22:03:09] [I] <zx|cbZX: /sign>
+[01-30-2026 22:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[01-30-2026 22:14:01] [I] <zx|cbZX: /sign>
+[01-30-2026 22:14:02] [I] <zx|cbZX: /sign>
+[01-30-2026 22:14:05] [I] <zx|cbZX: /sign>
+[01-30-2026 22:15:11] [I] [31m加载失败(ToLoad): 加载失败: Cannot access '<init>': it is protected in 'TimerTask' (sign.kts:4:47)
+[01-30-2026 22:16:47] [I] [31m加载失败(ToLoad): 加载失败: Expecting an element (sign.kts:6:13)
+[01-30-2026 22:17:05] [I] [31m加载失败(ToLoad): 加载失败: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type Pair<MutableList<Int>, Boolean>? (sign.kts:9:28)
+[01-30-2026 22:17:25] [I] [31m加载失败(ToLoad): 加载失败: Val cannot be reassigned (sign.kts:15:21)
+[01-30-2026 22:19:11] [I] [31m加载失败(ToLoad): 加载失败: Val cannot be reassigned (sign.kts:15:21)
+[01-30-2026 22:19:23] [I] [32m重载成功: Enabled
+[01-30-2026 22:19:26] [I] <zx|cbZX: /sign>
+[01-30-2026 22:19:27] [I] <zx|cbZX: /sign>
+[01-30-2026 22:19:56] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: send (sign.kts:21:7)
+[01-30-2026 22:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[01-30-2026 22:20:33] [I] [32m重载成功: Enabled
+[01-30-2026 22:20:36] [I] <zx|cbZX: /sign>
+[01-30-2026 22:20:37] [I] <zx|cbZX: /sign>
+[01-30-2026 22:21:26] [I] [32m重载成功: Enabled
+[01-30-2026 22:21:27] [I] <zx|cbZX: /sign>
+[01-30-2026 22:21:29] [I] <zx|cbZX: /sign>
+[01-30-2026 22:21:33] [I] <zx|cbZX: /sign>
+[01-30-2026 22:21:35] [I] <zx|cbZX: /sign>
+[01-30-2026 22:21:42] [I] [31m无效指令"tq",请使用 * help 查询
+[01-30-2026 22:21:45] [I] <zx|cbZX: /sign>
+[01-30-2026 22:21:46] [I] <zx|cbZX: /sign>
+[01-30-2026 22:25:04] [I] [31m加载失败(ToLoad): 加载失败: Suspension functions can be called only within coroutine body (sign.kts:19:7)
+[01-30-2026 22:25:51] [I] [31m加载失败(ToLoad): 加载失败: Unexpected tokens (use ';' to separate expressions on the same line) (sign.kts:19:35)
+[01-30-2026 22:25:58] [I] [31m加载失败(ToLoad): 加载失败: Suspension functions can be called only within coroutine body (sign.kts:19:7)
+[01-30-2026 22:26:27] [I] [31m加载失败(ToLoad): 加载失败: No value passed for parameter 'player' (sign.kts:7:35)
+[01-30-2026 22:26:44] [I] [31m加载失败(ToLoad): 加载失败: A type annotation is required on a value parameter (sign.kts:8:7)
+[01-30-2026 22:26:53] [I] [31m加载失败(ToLoad): 加载失败: No value passed for parameter 'player' (sign.kts:18:27)
+[01-30-2026 22:27:26] [I] [31m加载失败(ToLoad): 加载失败: No value passed for parameter 'player' (sign.kts:18:27)
+[01-30-2026 22:27:38] [I] [31m加载失败(ToLoad): 加载失败: Suspend function 'send' should be called only from a coroutine or another suspend function (sign.kts:20:3)
+[01-30-2026 22:27:55] [I] [31m加载失败(ToLoad): 加载失败: 'super' is not an expression, it can only be used on the left-hand side of a dot ('.') (sign.kts:8:1)
+[01-30-2026 22:28:06] [I] [32m重载成功: Enabled
+[01-30-2026 22:28:12] [I] <zx|cbZX: /sign>
+[01-30-2026 22:28:15] [I] <zx|cbZX: /sign>
+[01-30-2026 22:28:21] [I] <zx|cbZX: /sign>
+[01-30-2026 22:28:59] [I] [32m重载成功: Enabled
+[01-30-2026 22:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[01-30-2026 22:32:52] [I] zx|cbZX: info
+[01-30-2026 22:32:55] [I] <zx|cbZX: /info>
+[01-30-2026 22:33:29] [I] <zx|cbZX: /a>
+[01-30-2026 22:33:31] [I] <zx|cbZX: /ddd>
+[01-30-2026 22:33:34] [I] <zx|cbZX: /help>
+[01-30-2026 22:34:16] [I] <zx|cbZX: /info>
+[01-30-2026 22:34:19] [I] <zx|cbZX: /help>
+[01-30-2026 22:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[01-30-2026 22:44:16] [I] [31m加载失败(ToLoad): 加载失败: Unexpected tokens (use ';' to separate expressions on the same line) (sign.kts:23:19)
+[01-30-2026 22:44:49] [I] [32m重载成功: Enabled
+[01-30-2026 22:44:56] [I] <zx|cbZX: /help>
+[01-30-2026 22:45:03] [I] <zx|cbZX: /sign>
+[01-30-2026 22:45:06] [I] <zx|cbZX: /sign>
+[01-30-2026 22:45:12] [I] <zx|cbZX: /t1>
+[01-30-2026 22:45:15] [I] <zx|cbZX: /sign>
+[01-30-2026 22:45:17] [I] <zx|cbZX: /sign>
+[01-30-2026 22:45:19] [I] <zx|cbZX: /t1>
+[01-30-2026 22:45:20] [I] <zx|cbZX: /t1>
+[01-30-2026 22:45:21] [I] <zx|cbZX: /sign>
+[01-30-2026 22:45:24] [I] <zx|cbZX: /t1>
+[01-30-2026 22:45:26] [I] <zx|cbZX: /sign>
+[01-30-2026 22:45:28] [I] <zx|cbZX: /t1>
+[01-30-2026 22:45:30] [I] <zx|cbZX: /sign>
+[01-30-2026 22:45:32] [I] <zx|cbZX: /t1>
+[01-30-2026 22:45:34] [I] <zx|cbZX: /sign>
+[01-30-2026 22:45:37] [I] <zx|cbZX: /t1>
+[01-30-2026 22:45:38] [I] <zx|cbZX: /sign>
+[01-30-2026 22:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[01-30-2026 22:51:47] [I] [31m加载失败(ToLoad): 加载失败: Type mismatch: inferred type is MutableList<Int> but MutableMap<Int, Int> was expected (sign.kts:9:58)
+[01-30-2026 22:52:07] [I] [31m加载失败(ToLoad): 加载失败: Not enough information to infer type variable K (sign.kts:9:58)
+[01-30-2026 22:52:18] [I] [31m加载失败(ToLoad): 加载失败: Type mismatch: inferred type is MutableList<Int> but MutableMap<Int, Int> was expected (sign.kts:11:72)
+[01-30-2026 22:52:32] [I] [31m加载失败(ToLoad): 加载失败: Type mismatch: inferred type is MutableList<Int> but MutableMap<Int, Int> was expected (sign.kts:11:72)
+[01-30-2026 22:52:41] [I] [32m重载成功: Enabled
+[01-30-2026 22:52:44] [I] <zx|cbZX: /sign>
+[01-30-2026 22:52:47] [I] <zx|cbZX: /t1>
+[01-30-2026 22:52:48] [I] <zx|cbZX: /sign>
+[01-30-2026 22:52:51] [I] <zx|cbZX: /t1>
+[01-30-2026 22:52:52] [I] <zx|cbZX: /sign>
+[01-30-2026 22:52:54] [I] <zx|cbZX: /t1>
+[01-30-2026 22:52:55] [I] <zx|cbZX: /sign>
+[01-30-2026 22:52:57] [I] <zx|cbZX: /t1>
+[01-30-2026 22:52:58] [I] <zx|cbZX: /sign>
+[01-30-2026 22:53:00] [I] <zx|cbZX: /t1>
+[01-30-2026 22:53:01] [I] <zx|cbZX: /sign>
+[01-30-2026 22:53:03] [I] <zx|cbZX: /t1>
+[01-30-2026 22:53:04] [I] <zx|cbZX: /sign>
+[01-30-2026 22:53:10] [I] <zx|cbZX: /t1>
+[01-30-2026 22:53:12] [I] <zx|cbZX: /sign>
+[01-30-2026 22:55:58] [I] [32m重载成功: Enabled
+[01-30-2026 22:56:14] [I] [32m重载成功: Enabled
+[01-30-2026 22:56:17] [I] <zx|cbZX: /sign>
+[01-30-2026 22:56:20] [I] <zx|cbZX: /sign>
+[01-30-2026 22:56:22] [I] <zx|cbZX: /sign>
+[01-30-2026 22:56:23] [I] <zx|cbZX: /sign>
+[01-30-2026 22:56:24] [I] <zx|cbZX: /sign>
+[01-30-2026 22:56:25] [I] <zx|cbZX: /sign>
+[01-30-2026 22:56:26] [I] <zx|cbZX: /sign>
+[01-30-2026 22:56:28] [I] <zx|cbZX: /sign>
+[01-30-2026 22:57:25] [I] <zx|cbZX: /sign>
+[01-30-2026 22:57:28] [I] <zx|cbZX: /sign>
+[01-30-2026 22:57:31] [I] <zx|cbZX: /sign>
+[01-30-2026 22:57:34] [I] <zx|cbZX: /sign>
+[01-30-2026 22:57:39] [I] <zx|cbZX: /sign>
+[01-30-2026 22:57:41] [I] <zx|cbZX: /sign>
+[01-30-2026 22:57:43] [I] <zx|cbZX: /sign>
+[01-30-2026 22:58:20] [I] <zx|cbZX: /sign>
+[01-30-2026 22:58:22] [I] <zx|cbZX: /sign>
+[01-30-2026 22:58:24] [I] <zx|cbZX: /sign>
+[01-30-2026 22:58:25] [I] <zx|cbZX: /sign>
+[01-30-2026 22:58:26] [I] <zx|cbZX: /sign>
+[01-30-2026 22:58:27] [I] <zx|cbZX: /sign>
+[01-30-2026 22:58:28] [I] <zx|cbZX: /sign>
+[01-30-2026 22:58:30] [I] <zx|cbZX: /sign>
+[01-30-2026 23:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[01-30-2026 23:05:52] [I] [31m加载失败(ToLoad): 加载失败: Val cannot be reassigned (sign.kts:24:21)
+[01-30-2026 23:06:20] [I] [31m加载失败(ToLoad): 加载失败: 'return' is not allowed here (sign.kts:19:25)
+[01-30-2026 23:06:46] [I] [31m加载失败(ToLoad): 加载失败: Val cannot be reassigned (sign.kts:19:25)
+[01-30-2026 23:07:05] [I] [31m加载失败(ToLoad): 加载失败: Val cannot be reassigned (sign.kts:19:25)
+[01-30-2026 23:07:11] [I] [32m重载成功: Enabled
+[01-30-2026 23:07:13] [I] <zx|cbZX: /sign>
+[01-30-2026 23:07:15] [I] <zx|cbZX: /sign>
+[01-30-2026 23:07:38] [I] <zx|cbZX: /sign>
+[01-30-2026 23:07:45] [I] [32m重载成功: Enabled
+[01-30-2026 23:07:47] [I] <zx|cbZX: /sign>
+[01-30-2026 23:07:50] [I] <zx|cbZX: /sign>
+[01-30-2026 23:07:52] [I] <zx|cbZX: /sign>
+[01-30-2026 23:07:53] [I] <zx|cbZX: /sign>
+[01-30-2026 23:07:55] [I] <zx|cbZX: /sign>
+[01-30-2026 23:07:56] [I] <zx|cbZX: /sign>
+[01-30-2026 23:08:40] [I] [32m重载成功: Enabled
+[01-30-2026 23:08:42] [I] <zx|cbZX: /sign>
+[01-30-2026 23:08:46] [I] <zx|cbZX: /sign>
+[01-30-2026 23:08:49] [I] <zx|cbZX: /sign>
+[01-30-2026 23:08:53] [I] <zx|cbZX: /sign>
+[01-30-2026 23:08:55] [I] <zx|cbZX: /sign>
+[01-30-2026 23:08:57] [I] <zx|cbZX: /sign>
+[01-30-2026 23:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[01-30-2026 23:18:46] [I] [32m重载成功: Enabled
+[01-30-2026 23:18:50] [I] <zx|cbZX: /sign>
+[01-30-2026 23:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[01-30-2026 23:21:22] [I] [32m重载成功: Enabled
+[01-30-2026 23:21:24] [I] <zx|cbZX: /sign>
+[01-30-2026 23:22:08] [I] [32m重载成功: Enabled
+[01-30-2026 23:22:10] [I] <zx|cbZX: /sign>
+[01-30-2026 23:22:13] [I] <zx|cbZX: /sign>
+[01-30-2026 23:22:14] [I] <zx|cbZX: /sign>
+[01-30-2026 23:22:15] [I] <zx|cbZX: /sign>
+[01-30-2026 23:22:16] [I] <zx|cbZX: /sign>
+[01-30-2026 23:22:17] [I] <zx|cbZX: /sign>
+[01-30-2026 23:23:53] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public fun Player?.sendMessage(text: PlaceHoldString /* = PlaceHoldContext */, type: MsgType = ..., time: Float = ...): Unit defined in coreMindustry.lib
+public fun Player?.sendMessage(text: String, type: MsgType = ..., time: Float = ...): Unit defined in coreMindustry.lib (sign.kts:39:182)
+[01-30-2026 23:24:31] [I] <zx|cbZX: /sign>
+[01-30-2026 23:25:11] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public fun Player?.sendMessage(text: PlaceHoldString /* = PlaceHoldContext */, type: MsgType = ..., time: Float = ...): Unit defined in coreMindustry.lib
+public fun Player?.sendMessage(text: String, type: MsgType = ..., time: Float = ...): Unit defined in coreMindustry.lib (sign.kts:40:89)
+[01-30-2026 23:25:44] [I] [32m重载成功: Enabled
+[01-30-2026 23:25:50] [I] <zx|cbZX: /sign>
+[01-30-2026 23:25:52] [I] <zx|cbZX: /sign>
+[01-30-2026 23:25:53] [I] <zx|cbZX: /sign>
+[01-30-2026 23:25:54] [I] <zx|cbZX: /sign>
+[01-30-2026 23:25:55] [I] <zx|cbZX: /sign>
+[01-30-2026 23:25:56] [I] <zx|cbZX: /sign>
+[01-30-2026 23:26:11] [I] <zx|cbZX: /t2>
+[01-30-2026 23:26:16] [I] <zx|cbZX: /t2>
+[01-30-2026 23:26:20] [I] zx|cbZX: a
+[01-30-2026 23:26:22] [I] <zx|cbZX: /t2>
+[01-30-2026 23:26:58] [I] <zx|cbZX: /sign>
+[01-30-2026 23:27:00] [I] <zx|cbZX: /sign>
+[01-30-2026 23:27:01] [I] <zx|cbZX: /sign>
+[01-30-2026 23:27:03] [I] <zx|cbZX: /sign>
+[01-30-2026 23:27:04] [I] <zx|cbZX: /sign>
+[01-30-2026 23:27:05] [I] <zx|cbZX: /sign>
+[01-30-2026 23:27:06] [I] <zx|cbZX: /sign>
+[01-30-2026 23:27:30] [I] <zx|cbZX: /t2>
+[01-30-2026 23:28:58] [I] <zx|cbZX: /sa reload plugins>
+[01-30-2026 23:30:15] [I] 4 mods loaded.
+[01-30-2026 23:30:58] [I] ===========================
+[01-30-2026 23:30:58] [I]      ScriptAgent @version@
+[01-30-2026 23:30:58] [I]            By WayZer    
+[01-30-2026 23:30:58] [I] 插件官网: https://git.io/SA4Mindustry
+[01-30-2026 23:30:58] [I] QQ交流群: 1033116078
+[01-30-2026 23:30:58] [I] 共找到105脚本,加载成功74,启用成功70,出错2
+[01-30-2026 23:30:58] [I] ===========================
+[01-30-2026 23:30:58] [I] Server loaded. Type 'help' for help.
+[01-30-2026 23:30:58] [I] [MindustryX] Hooks.init
+[01-30-2026 23:31:13] [I] [31m加载地图地图Me战争 章7-矿区对峙失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-30-2026 23:31:15] [I] Opened a server on port 6567.
+[01-30-2026 23:31:19] [I] [32m强制换图为MapInfo(name='Ancient Caldera', author='Anuke', mode=生存, id=1, provider=wayzer.Maps$1@69e12c52)
+[01-30-2026 23:31:23] [I] zx|cbZ has connected. [rejClX71PxYAAAAAtQYrYg==]
+[01-30-2026 23:31:26] [I] <zx|cbZ: /sign>
+[01-30-2026 23:31:33] [I] [33m==== [93mfail脚本[33m ====
+[0m[ToLoad] plugins/user/sign              加载失败: Unresolved reference: g (sign.kts:14:90)
+[0m[ToEnable] wayzer/reGrief/limitFire       java.lang.NoSuchFieldException: map
+[01-30-2026 23:33:27] [I] [31m加载失败(ToLoad): 加载失败: Type mismatch: inferred type is Int? but Int was expected (sign.kts:15:92)
+[01-30-2026 23:33:55] [I] [32m重载成功: Enabled
+[01-30-2026 23:33:59] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:00] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:01] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:03] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:04] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:05] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:07] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:22] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:24] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:25] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:25] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:27] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:27] [I] <zx|cbZX: /sign>
+[01-30-2026 23:34:29] [I] <zx|cbZX: /sign>
+[01-30-2026 23:36:41] [I] Game over! Reached wave 2 with 1 players online on map Ancient Caldera.
+[01-30-2026 23:36:41] [I] Next Map is Wasteland(ID:18)
+[01-30-2026 23:37:38] [I] [32m重载成功: Enabled
+[01-30-2026 23:37:42] [I] <zx|cbZX: /sign>
+[01-30-2026 23:37:45] [I] <zx|cbZX: /sign>
+[01-30-2026 23:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[01-30-2026 23:41:10] [I] [31m加载失败(ToLoad): 加载失败: Expecting ')' (sign.kts:15:159)
+[01-30-2026 23:41:34] [I] [32m重载成功: Enabled
+[01-30-2026 23:41:43] [I] <zx|cbZX: /sign>
+[01-30-2026 23:41:44] [I] <zx|cbZX: /sign>
+[01-30-2026 23:42:14] [I] [32m重载成功: Enabled
+[01-30-2026 23:42:14] [I] <zx|cbZX: /sign>
+[01-30-2026 23:42:16] [I] <zx|cbZX: /sign>
+[01-30-2026 23:42:18] [I] <zx|cbZX: /sign>
+[01-30-2026 23:42:22] [I] <zx|cbZX: /sign>
+[01-30-2026 23:43:01] [I] [32m重载成功: Enabled
+[01-30-2026 23:43:01] [I] <zx|cbZX: /sign>
+[01-30-2026 23:43:03] [I] <zx|cbZX: /sign>
+[01-30-2026 23:43:33] [I] Game over! Reached wave 3 with 1 players online on map Wasteland.
+[01-30-2026 23:43:33] [I] Next Map is Mud Flats(ID:12)
+[01-30-2026 23:45:08] [I] [32m重载成功: Enabled
+[01-30-2026 23:45:08] [I] <zx|cbZX: /sign>
+[01-30-2026 23:45:10] [I] <zx|cbZX: /sign>
+[01-30-2026 23:45:16] [I] <zx|cbZX: /s1>
+[01-30-2026 23:45:19] [I] <zx|cbZX: /t1>
+[01-30-2026 23:45:20] [I] <zx|cbZX: /s1>
+[01-30-2026 23:45:22] [I] <zx|cbZX: /sign>
+[01-30-2026 23:46:38] [I] [32m重载成功: Enabled
+[01-30-2026 23:46:43] [I] <zx|cbZX: /sign>
+[01-30-2026 23:47:30] [I] [32m重载成功: Enabled
+[01-30-2026 23:47:31] [I] <zx|cbZX: /sign>
+[01-30-2026 23:47:32] [I] <zx|cbZX: /sign>
+[01-30-2026 23:47:54] [I] [32m重载成功: Enabled
+[01-30-2026 23:48:11] [I] [32m重载成功: Enabled
+[01-30-2026 23:48:13] [I] <zx|cbZX: /sign>
+[01-30-2026 23:48:15] [I] <zx|cbZX: /sign>
+[01-30-2026 23:48:16] [I] <zx|cbZX: /sign>
+[01-30-2026 23:48:17] [I] <zx|cbZX: /sign>
+[01-30-2026 23:48:26] [I] <zx|cbZX: /sign>
+[01-30-2026 23:48:28] [I] <zx|cbZX: /sign>
+[01-30-2026 23:48:29] [I] <zx|cbZX: /sign>
+[01-30-2026 23:48:30] [I] <zx|cbZX: /sign>
+[01-30-2026 23:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[01-30-2026 23:50:15] [I] Game over! Reached wave 3 with 1 players online on map Mud Flats.
+[01-30-2026 23:50:15] [I] Next Map is [37m登神长阶(ID:22947)
+[01-30-2026 23:50:42] [I] [31m加载地图地图[37m登神长阶失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-30-2026 23:50:44] [I] [31m加载地图地图专治一切cp失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-30-2026 23:56:07] [I] Game over! Reached wave 2 with 1 players online on map Ancient Caldera.
+[01-30-2026 23:56:07] [I] Next Map is (神星系列)于文太基 - 基地1号(ID:22980)
+[01-30-2026 23:56:21] [I] [31m加载地图地图(神星系列)于文太基 - 基地1号失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-30-2026 23:56:29] [I] [31m加载地图地图太空机械带失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 00:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[01-31-2026 00:05:10] [I] [31m加载失败(ToLoad): 加载失败: Expecting ')' (info.kts:25:13)
+[01-31-2026 00:05:20] [I] [31m加载失败(ToLoad): 加载失败: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type Player? (info.kts:24:45)
+[01-31-2026 00:05:27] [I] [31m加载失败(ToLoad): 加载失败: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type Player? (info.kts:24:45)
+[01-31-2026 00:05:32] [I] [31m加载失败(ToLoad): 加载失败: Function invocation 'uuid()' expected (info.kts:24:48)
+[01-31-2026 00:05:45] [I] [31m加载失败(ToLoad): 加载失败: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type UserSql.PlayerGameData? (info.kts:25:30)
+[01-31-2026 00:05:50] [I] [31m加载失败(ToLoad): 加载失败: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type UserSql.PlayerGameData? (info.kts:25:30)
+[01-31-2026 00:05:55] [I] [31m加载失败(ToLoad): 加载失败: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type UserSql.PlayerGameData? (info.kts:25:30)
+[01-31-2026 00:06:00] [I] [32m重载成功: Enabled
+[01-31-2026 00:06:04] [I] zx|cbZX: info
+[01-31-2026 00:06:07] [I] <zx|cbZX: /info>
+[01-31-2026 00:06:16] [I] <zx|cbZX: /info>
+[01-31-2026 00:06:33] [I] [32m重载成功: Enabled
+[01-31-2026 00:06:35] [I] <zx|cbZX: /inf>
+[01-31-2026 00:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[01-31-2026 00:19:12] [I] Game over! Reached wave 6 with 1 players online on map [36m纪元·终末将至·END 6.2.
+[01-31-2026 00:19:12] [I] Next Map is Fork(ID:5)
+[01-31-2026 00:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[01-31-2026 00:25:29] [I] Game over! Reached wave 3 with 1 players online on map Fork.
+[01-31-2026 00:25:29] [I] Next Map is 屑塔防2.0(ID:22993)
+[01-31-2026 00:25:46] [I] [31m加载地图地图屑塔防2.0失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 00:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[01-31-2026 00:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[01-31-2026 00:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[01-31-2026 01:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[01-31-2026 01:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[01-31-2026 01:16:37] [I] Game over! Reached wave 25 with 1 players online on map Passage.
+[01-31-2026 01:16:39] [I] Next Map is Islands(ID:8)
+[01-31-2026 01:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[01-31-2026 01:22:54] [I] Game over! Reached wave 3 with 1 players online on map Islands.
+[01-31-2026 01:22:54] [I] Next Map is (神星系列)于文太基 - 基地1号(ID:22980)
+[01-31-2026 01:23:09] [I] [31m加载地图地图(神星系列)于文太基 - 基地1号失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 01:28:16] [I] Game over! Reached wave 2 with 1 players online on map Debris Field.
+[01-31-2026 01:28:16] [I] Next Map is Domain(ID:4)
+[01-31-2026 01:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[01-31-2026 01:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[01-31-2026 01:40:34] [I] Game over! Reached wave 3 with 1 players online on map Domain.
+[01-31-2026 01:40:34] [I] Next Map is The Spirelands：Broken Watch（破碎边哨）(ID:22953)
+[01-31-2026 01:40:55] [I] [31m加载地图地图The Spirelands：Broken Watch（破碎边哨）失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 01:41:00] [I] [31m加载地图地图[33m塔防●蟲蟲失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 01:41:06] [I] [31m加载地图地图永冬[37m—航天基地[37m—工业区失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 01:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[01-31-2026 01:54:02] [I] Game over! Reached wave 2 with 1 players online on map [36m偏远山谷.
+[01-31-2026 01:54:02] [I] Next Map is 双科技防守1(ID:22995)
+[01-31-2026 01:54:16] [I] [31m加载地图地图双科技防守1失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 01:54:20] [I] [31m加载地图地图星际航程：逐一击破失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 01:59:37] [I] Game over! Reached wave 2 with 1 players online on map Fortress.
+[01-31-2026 01:59:37] [I] Next Map is [36m纪元·终末将至·END 6.2(ID:22999)
+[01-31-2026 02:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[01-31-2026 02:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[01-31-2026 02:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102
+[01-31-2026 02:22:52] [I] Game over! Reached wave 6 with 1 players online on map [36m纪元·终末将至·END 6.2.
+[01-31-2026 02:22:54] [I] Next Map is The Spirelands：Broken Watch（破碎边哨）(ID:22953)
+[01-31-2026 02:23:08] [I] [31m加载地图地图The Spirelands：Broken Watch（破碎边哨）失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 02:23:12] [I] [31m加载地图地图碧蓝小岛失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 02:29:44] [I] Game over! Reached wave 3 with 1 players online on map Mud Flats.
+[01-31-2026 02:29:44] [I] Next Map is 太空机械带(ID:23004)
+[01-31-2026 02:29:57] [I] [31m加载地图地图太空机械带失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 02:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
+[01-31-2026 02:30:00] [I] [31m加载地图地图[33m塔防●蟲蟲失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 02:30:04] [I] [31m加载地图地图断层区失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 02:30:06] [I] [31m加载地图地图空间站守卫战失败: Unknown save version: 11. Are you trying to load a save from a newer version?
+[01-31-2026 02:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[01-31-2026 02:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[01-31-2026 03:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
+[01-31-2026 03:10:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m101
+[01-31-2026 03:20:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m102

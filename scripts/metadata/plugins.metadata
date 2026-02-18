@@ -1,0 +1,47 @@
+ID plugins
+FQ_NAME Module
++DEPENDS mirai 
+
+ID plugins/map/MapDD
+FQ_NAME map.MapDD
++DEPENDS plugins module
+
+ID plugins/mirai/help
+FQ_NAME mirai.Help
++DEPENDS mirai/miraiCommandApi 
++DEPENDS plugins module
++DEPENDS plugins/user/userSql 
+
+ID plugins/mirai/info
+FQ_NAME Info
++DEPENDS mirai/miraiCommandApi 
++DEPENDS plugins module
++DEPENDS plugins/user/level/Level 
++DEPENDS plugins/user/userSql 
+
+ID plugins/mirai/status
+FQ_NAME mirai.Status
++DEPENDS mirai/miraiCommandApi 
++DEPENDS plugins module
+
+ID plugins/user/bind
+FQ_NAME user.Bind
++DEPENDS coreLibrary/DBApi 
++DEPENDS coreMindustry 
++DEPENDS coreMindustry/menu 
++DEPENDS coreMindustry/utilTextInput 
++DEPENDS mirai/miraiCommandApi 
++DEPENDS plugins module
++DEPENDS plugins/user/userSql 
++DEPENDS wayzer 
+
+ID plugins/user/level/Level
+FQ_NAME user.level.Level
++DEPENDS plugins module
+
+ID plugins/user/userSql
+FQ_NAME user.UserSql
++DEPENDS coreLibrary/DBApi 
++DEPENDS plugins module
++DEPENDS plugins/user/level/Level 
+

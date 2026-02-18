@@ -1,0 +1,20 @@
+ID mapScript
+FQ_NAME mapScript.Module
++DEPENDS coreMindustry 
++DEPENDS wayzer/maps 
++DEPENDS wayzer/maps ��ȡ��ͼ��Ϣ
++IMPORT DefaultImport mapScript.lib.*
++SOFT_DEPENDS wayzer/map/mapInfo ��ʾ��ͼ��Ϣ
+
+ID mapScript/shared/posMark
+FQ_NAME mapScript.shared.PosMark
++DEPENDS mapScript module
+
+ID mapScript/tags/limitAir
+FQ_NAME mapScript.tags.LimitAir
++DEPENDS mapScript module
+
+ID mapScript/tags/mapRule
+FQ_NAME mapScript.tags.MapRule
++DEPENDS mapScript module
+
