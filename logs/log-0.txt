@@ -10472,3 +10472,121 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [02-19-2026 11:29:57] [I] [33m使用 /github-update-confirm 确认更新，或 /github-update-cancel 取消
 [02-19-2026 11:30:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m103
 [02-19-2026 11:40:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m104
+[02-19-2026 11:50:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m105
+[02-19-2026 11:57:29] [I] [GitHubUpdater] 更新器已禁用
+[02-19-2026 11:57:29] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: Console (autoUpdate.kts:681:24)
+[02-19-2026 11:57:45] [I] [31m加载失败(ToLoad): 加载失败: Unresolved reference: Console (autoUpdate.kts:739:24)
+[02-19-2026 11:58:23] [I] [GitHubUpdater] 更新器已启用
+[02-19-2026 11:58:23] [I] [GitHubUpdater] 配置仓库: ZenXSin/msp:master
+[02-19-2026 11:58:23] [I] [32m重载成功: Enabled
+[02-19-2026 11:58:27] [I] [GitHubUpdater] 正在检查更新...
+[02-19-2026 11:58:28] [I] [GitHubUpdater] 远程最新提交: 63eeaaa by ZenXSin
+[02-19-2026 11:58:28] [I] [GitHubUpdater] 提交信息: 1
+
+1
+[02-19-2026 11:58:28] [I] 
+[02-19-2026 11:58:28] [I] ══════════ 项目结构对比 ══════════
+[02-19-2026 11:58:28] [I] 新增: 0 | 修改: 38 | 删除: 6
+[02-19-2026 11:58:28] [I] 
+[02-19-2026 11:58:28] [I]     └── [white]📁 scripts[]
+[02-19-2026 11:58:28] [I]         ├── [white]📁 coreMindustry[]
+[02-19-2026 11:58:28] [I]         │   └── [yellow][yellow]~ autoUpdate.kts[] 32.83 KB
+[02-19-2026 11:58:28] [I]         ├── [white]📁 data[]
+[02-19-2026 11:58:28] [I]         │   ├── [white]📁 mirai[]
+[02-19-2026 11:58:28] [I]         │   │   └── [red][red]- device.json[] 944 B
+[02-19-2026 11:58:28] [I]         │   ├── [red][red]- config.conf[] 145 B
+[02-19-2026 11:58:28] [I]         │   ├── [red][red]- h2DB.db.mv.db[] 44.00 KB
+[02-19-2026 11:58:28] [I]         │   ├── [red][red]- h2DB.db.trace.db[] 12.10 KB
+[02-19-2026 11:58:28] [I]         │   ├── [red][red]- kvStore.mv[] 12.00 KB
+[02-19-2026 11:58:28] [I]         │   └── [red][red]- lang.ini[] 403.89 KB
+[02-19-2026 11:58:28] [I]         ├── [white]📁 mirai[]
+[02-19-2026 11:58:28] [I]         │   └── [yellow][yellow]~ miraiCommandApi.kts[] 3.30 KB
+[02-19-2026 11:58:28] [I]         ├── [white]📁 plugins[]
+[02-19-2026 11:58:28] [I]         │   ├── [white]📁 manage[]
+[02-19-2026 11:58:28] [I]         │   │   └── [yellow][yellow]~ module.kts[] 40 B
+[02-19-2026 11:58:28] [I]         │   ├── [white]📁 map[]
+[02-19-2026 11:58:28] [I]         │   │   └── [yellow][yellow]~ MapDD.kts[] 521 B
+[02-19-2026 11:58:28] [I]         │   ├── [white]📁 mirai[]
+[02-19-2026 11:58:28] [I]         │   │   ├── [yellow][yellow]~ help.kts[] 709 B
+[02-19-2026 11:58:28] [I]         │   │   ├── [yellow][yellow]~ info.kts[] 903 B
+[02-19-2026 11:58:28] [I]         │   │   └── [yellow][yellow]~ status.kts[] 1.98 KB
+[02-19-2026 11:58:28] [I]         │   ├── [white]📁 user[]
+[02-19-2026 11:58:28] [I]         │   │   ├── [white]📁 contribute[]
+[02-19-2026 11:58:28] [I]         │   │   │   └── [yellow][yellow]~ todo.txt[] 912 B
+[02-19-2026 11:58:28] [I]         │   │   ├── [white]📁 level[]
+[02-19-2026 11:58:28] [I]         │   │   │   └── [yellow][yellow]~ Level.kts[] 845 B
+[02-19-2026 11:58:28] [I]         │   │   ├── [yellow][yellow]~ bind.kts[] 1.75 KB
+[02-19-2026 11:58:28] [I]         │   │   ├── [yellow][yellow]~ sign.kts[] 3.12 KB
+[02-19-2026 11:58:28] [I]         │   │   └── [yellow][yellow]~ userSql.kts[] 5.51 KB
+[02-19-2026 11:58:28] [I]         │   └── [yellow][yellow]~ module.kts[] 32 B
+[02-19-2026 11:58:28] [I]         └── [white]📁 zxs[]
+[02-19-2026 11:58:28] [I]             ├── [white]📁 api[]
+[02-19-2026 11:58:28] [I]             │   └── [yellow][yellow]~ gc.kts[] 977 B
+[02-19-2026 11:58:28] [I]             ├── [white]📁 game[]
+[02-19-2026 11:58:28] [I]             │   ├── [white]📁 cards[]
+[02-19-2026 11:58:28] [I]             │   │   ├── [yellow][yellow]~ CardType.kts[] 613 B
+[02-19-2026 11:58:28] [I]             │   │   ├── [yellow][yellow]~ Cards.kts[] 1.48 KB
+[02-19-2026 11:58:29] [I]             │   │   ├── [yellow][yellow]~ cardm.kts[] 3.87 KB
+[02-19-2026 11:58:29] [I]             │   │   └── [yellow][yellow]~ gacha.kts[] 1.74 KB
+[02-19-2026 11:58:29] [I]             │   ├── [white]📁 wake[]
+[02-19-2026 11:58:29] [I]             │   │   ├── [yellow][yellow]~ wake.kts[] 2.62 KB
+[02-19-2026 11:58:29] [I]             │   │   └── [yellow][yellow]~ wakeToPlayer.kts[] 3.45 KB
+[02-19-2026 11:58:29] [I]             │   ├── [yellow][yellow]~ betterio.kts[] 4.78 KB
+[02-19-2026 11:58:29] [I]             │   ├── [yellow][yellow]~ killMe.kts[] 373 B
+[02-19-2026 11:58:29] [I]             │   └── [yellow][yellow]~ quiet.kts[] 2.44 KB
+[02-19-2026 11:58:29] [I]             ├── [white]📁 libs[]
+[02-19-2026 11:58:29] [I]             │   ├── [yellow][yellow]~ getplayer.kts[] 505 B
+[02-19-2026 11:58:29] [I]             │   └── [yellow][yellow]~ mail.kts[] 1.12 KB
+[02-19-2026 11:58:29] [I]             ├── [white]📁 main[]
+[02-19-2026 11:58:29] [I]             │   └── [yellow][yellow]~ menu.kts[] 2.67 KB
+[02-19-2026 11:58:29] [I]             ├── [white]📁 mirai[]
+[02-19-2026 11:58:29] [I]             │   ├── [yellow][yellow]~ canSend.kts[] 282 B
+[02-19-2026 11:58:29] [I]             │   ├── [yellow][yellow]~ gc.kts[] 638 B
+[02-19-2026 11:58:29] [I]             │   ├── [yellow][yellow]~ host.kts[] 1.36 KB
+[02-19-2026 11:58:29] [I]             │   ├── [yellow][yellow]~ info.kts[] 1.00 KB
+[02-19-2026 11:58:29] [I]             │   ├── [yellow][yellow]~ schematic.kts[] 1.48 KB
+[02-19-2026 11:58:29] [I]             │   └── [yellow][yellow]~ sign.kts[] 4.00 KB
+[02-19-2026 11:58:29] [I]             ├── [white]📁 server[]
+[02-19-2026 11:58:29] [I]             │   ├── [yellow][yellow]~ monitor.kts[] 2.36 KB
+[02-19-2026 11:58:29] [I]             │   └── [yellow][yellow]~ room.kts[] 1.71 KB
+[02-19-2026 11:58:29] [I]             ├── [white]📁 user[]
+[02-19-2026 11:58:29] [I]             │   ├── [yellow][yellow]~ findQQ.kts[] 1019 B
+[02-19-2026 11:58:29] [I]             │   ├── [yellow][yellow]~ unbind.kts[] 1.01 KB
+[02-19-2026 11:58:29] [I]             │   └── [yellow][yellow]~ white.kts[] 3.52 KB
+[02-19-2026 11:58:29] [I]             └── [yellow][yellow]~ module.kts[] 2.67 KB
+[02-19-2026 11:58:29] [I] 
+[02-19-2026 11:58:29] [I] ══════════════════════════════════
+[02-19-2026 11:58:29] [I] 输入 github-update-confirm 确认更新
+[02-19-2026 11:58:29] [I] 输入 github-update-cancel 取消更新
+[02-19-2026 11:58:59] [I] [32m==== [37mHelp: * [32m ====
+[93m* ScriptAgent[91m(sa) [37m  [96mScriptAgent 控制指令[36m
+[93m* admin[91m [37m<add/remove> <username/ID...>  [96mMake an online user admin[36m
+[93m* admins[91m [37m  [96mList all admins.[36m
+[93m* ban[91m [37m<type-id/name/ip> <username/IP/ID...>  [96mBan a person.[36m
+[93m* banX[91m [37m<3位id> <时间|分钟> <原因>  [96m管理指令: 禁封[36m
+[93m* bans[91m [37m  [96mList all banned IPs and IDs.[36m
+[93m* config[91m [37m[name] [value...]  [96mConfigure server settings.[36m
+[93m* dos-ban[91m [37m[add/remove] [ip]  [96mAdd or remove a DOS ban.[36m
+[93m* dosBanClear[91m [37m  [96m清理dosBan[36m
+[93m* exit[91m [37m  [96mExit the server application.[36m
+[32m==== [37m1/7[32m ====
+[02-19-2026 11:59:04] [I] [32m==== [37mHelp: * [32m ====
+[93m* fillitems[91m [37m[team]  [96mFill the core with items.[36m
+[93m* forceUpdate[91m [37m<url>  [96m强制更新服务器版本[36m
+[93m* gameover[91m [37m[winner]  [96m管理指令: 结束游戏[36m
+[93m* gc[91m [37m  [96mTrigger a garbage collection. Testing only.[36m
+[93m* github-update[91m [37m  [96m检查 GitHub 仓库更新[36m
+[93m* github-update-cancel[91m [37m  [96m取消 GitHub 更新[36m
+[93m* github-update-config[91m [37m  [96m查看更新器配置[36m
+[93m* github-update-confirm[91m [37m  [96m确认执行 GitHub 更新[36m
+[93m* help[91m(帮助) [37m[-v] [page=1]  [96m帮助指令[36m
+[93m* history[91m(历史) [37m[core(查询核心)]  [96m开关查询模式[36m
+[32m==== [37m2/7[32m ====
+[02-19-2026 11:59:40] [I] === GitHub 更新器配置 ===
+[02-19-2026 11:59:40] [I] 仓库: ZenXSin/msp
+[02-19-2026 11:59:40] [I] 分支: master
+[02-19-2026 11:59:40] [I] Token: 未设置
+[02-19-2026 11:59:40] [I] 本地路径: config
+[02-19-2026 11:59:40] [I] 备份路径: config\scripts_backup
+[02-19-2026 11:59:40] [I] 排除规则: 16 项
+[02-19-2026 12:00:00] [I] [32m自动存档完成(整10分钟一次),存档号 [31m100
